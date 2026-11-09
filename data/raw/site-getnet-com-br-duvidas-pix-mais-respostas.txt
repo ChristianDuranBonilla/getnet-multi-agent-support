@@ -1,0 +1,148 @@
+url: https://site.getnet.com.br/duvidas/pix-mais-respostas/
+title: Arquivos Mais respostas sobre o Pix​ - Getnet
+
+## Já é cliente?
+Nos informe CPF ou CNPJ
+Para melhor direcionamento, informe o documento solicitado.
+VISITE
+O SITE
+Minha Conta
+Get Ajuda
+Fale Conosco
+Fale no WhatsApp
+Capitais e Regiões Metropolitanas
+4002-4000
+4003-4000
+Open
+
+## Como podemos te ajudar?
+Já sou cliente, e procuro um novo produto
+Já sou cliente, e procuro apenas produtos digitais
+Peguei a maquininha de outra pessoa, e preciso ativá-la em meu nome
+Não sou cliente, e procuro produtos digitais
+AVANÇAR
+
+## Mais respostas sobre o Pix​
+O que é o Pix? E quais as vantagens?
+O Pix é um meio de pagamento criado pelo Banco Central para fazer pagamentos e receber transferências de forma instantânea e gratuita. Diferente da TED, o Pix permite transações 24h por dia, 7 dias por semana, fins de semana e feriados. Pode ser feito por conta corrente, poupança ou conta de pagamento pré-paga entre diferentes bancos. As vantagens do Pix vai desde ser rápido, seguro, disponibilização imediata dos recursos.
+O que são chaves Pix?
+A chave Pix é o identificador da sua conta bancária. Existem 4 tipos de chave que serão usadas pra fazer pagamentos e transferências:
+- CPF ou CNPJ – se for uma empresa
+- E-mail
+- Número de celular
+Você também pode criar uma chave aleatória, sendo um código de 32 caracteres gerado pelo Banco Central para ser vinculado à sua conta.
+Como cadastrar minhas chaves na minha Get Conta?
+Para cadastar uma chave Pix na sua Get Conta, você deve acessar o Aplicativo Getnet Brasil > Conta > Pix > Minhas Chaves > Cadastrar chave.
+Como fazer um Pix pela Get Conta?
+Ao acessar sua Get Conta, vá até a opção Pix, onde você encontrará as alternativas para realizar uma transferência via Pix: transferência com Chave, leitura de QR Code e transferência com número de agência e conta.
+Como altero meus limites de Pix pela Get Conta?
+Na sua Get Conta, vá até a opção Pix e, em seguida, selecione a opção "Meus Limites". Escolha o tipo de limite que deseja aumentar ou diminuir e realize a alteração. Para aumento de limite de Pix, há um prazo de até 48 horas para realizar a alteração.
+O que é Meus Limites?
+A funcionalidade de gerenciamento de limites de transações do Pix está disponível para os clientes da Get Conta, permitindo que estabeleçam limites específicos para contatos de confiança, transações diurnas e noturnas.
+Como eu faço para consultar minhas chaves Pix?
+Para acessar as chaves cadastradas na sua Get Conta, siga os passos abaixo:
+1. Acesse o Aplicativo Getnet Brasil.
+2.No menu, clique na conta.
+3. Em seguida, clique no Pix.
+4. Ao abrir a área Pix, clique na opção "Minhas Chaves".
+5. Ao abrir as chaves cadastradas, você poderá visualizar as chaves disponíveis para realizar transações via Pix.
+Quando posso contestar uma transação?
+Uma transferência Pix realizada pela Get Conta pode ser contestada em caso de fraude, golpe ou crime envolvendo a transação. Esses são os únicos motivos permitidos pelo Banco Central do Brasil para realizar a contestação via Mecanismo Especial de Devolução (MED).
+O que é MED (Mecanismo Especial de Devolução)?
+O Mecanismo Especial de Devolução (MED) é um mecanismo exclusivo do Pix criado para facilitar as devoluções em caso de fraude, golpe ou crime, aumentando as possibilidades da vítima reaver os recursos. O MED pode ser utilizado quando existir falha operacional no ambiente Pix da sua instituição, por exemplo, ela efetuar uma transação em duplicidade. Nesse caso, ele avalia se houve a falha e, em caso positivo, em até 24 horas o dinheiro é devolvido."
+O que é portabilidade e reinvindicação de chave?
+Portabilidade:
+Se você deseja utilizar uma chave na Get Conta que esteja cadastrada em outra instituição financeira, fintech ou instituição de pagamento, você tem duas opções. A primeira é excluir a chave Pix na instituição atual e cadastrá-la na Get Conta. A segunda opção é solicitar a portabilidade da chave para a Get Conta. No caso de portabilidade, o cliente inicia o processo pelo Aplicativo Getnet Brasil e, em até 7 dias, deve confirmar ou recusar o pedido de portabilidade no canal da instituição em que a chave está vinculada (por exemplo, no aplicativo da outra instituição). Se a confirmação da portabilidade não ocorrer em até 7 dias, o pedido será automaticamente cancelado, e a chave permanecerá cadastrada na outra instituição. Apenas CPF/CNPJ, e-mail e celular podem passar pela portabilidade.
+Reivindicação:
+Caso você tente cadastrar uma chave que já está sendo utilizada por outra pessoa, seja por mudança de número de celular, disponibilização do número para outro cliente pela operadora ou em casos de tentativa de fraude, é possível solicitar a reivindicação do celular ou e-mail. Acesse o Aplicativo Getnet Brasil e realize o pedido, que poderá ter um prazo de até 7 dias para retorno.
+Existe algum limite de transações?
+Não há limites na quantidade de transações Pix, desde que não excedam os limites diários estabelecidos. Os limites diários são definidos pelas instituições financeiras e podem ser ajustados pelo cliente, mediante aprovação da instituição, na opção 'Meus Limites'.
+Recebi uma notificação de que minha chave foi reivindicada por outro usuário. O que devo fazer?
+Para manter a sua Chave Pix
+dentro da
+Get
+Conta, é
+necessário recusar o pedido de reivindicação. Caso deseje
+autorizar a transferência da Chave Pix para outro usuário,
+basta selecionar a opção 'Confirmar', e a Chave Pix será
+transferida para a outra pessoa.
+O que é Pix agendado? Como faço o agendamento do Pix?
+O Pix Agendado é uma funcionalidade que permite agendar uma transação Pix para uma data futura, escolhida pelo usuário. Ao realizar uma transação Pix, é possível escolher entre realizar a transferência imediatamente ou agendar para uma data posterior, com prazo máximo de até 90 dias, dependendo da instituição financeira.
+Como realizar o pagamento com QR Code?
+Para realizar uma transação com
+Code
+via Pix
+, siga os passos abaixo:
+Acesse a opção "Pix" na sua
+Conta.
+Selecione a opção "Ler QR
+Siga o fluxo apresentado no seu aplicativo para pagar pelo
+Como adicionar um Contato de Confiança?
+Para cadastrar um contato de confiança na sua Get Conta, siga os passos abaixo:
+1. Acesse a área Pix e selecione a opção "Meus Limites".
+2. Em seguida, selecione "Contatos de Confiança".
+3. Informe o nome, CPF e dados bancários (banco, agência e conta) do contato que deseja cadastrar.
+Além disso, informe o limite que deseja cadastrar para o contato.
+A validação do Contato de Confiança tem um prazo de 48 horas. Portanto, é importante verificar se o contato foi cadastrado corretamente e se o limite foi estabelecido conforme desejado.
+Como receber por QR Code?
+Para receber
+via Pix utilizando QR
+No menu, clique em "Conta".
+Selecione a opção "Vender com QR
+Se desejar, informe o valor que deseja receber pela leitura do QR
+que será gerado.
+O que é Pix Saque e Pix Troco?
+A função Pix Saque permite que o cliente saque uma quantia em dinheiro utilizando o Pix. Por exemplo, o
+cliente vai até um estabelecimento credenciado, como uma padaria ou um mercado, e informa o valor que
+gostaria de sacar. O atendente gera um
+para o cliente escanear e, após o pagamento, dá o
+dinheiro em espécie para o cliente.
+Já a função Pix Troco permite que o cliente receba dinheiro em espécie como troco do pagamento digital. Por
+exemplo, o cliente vai até um estabelecimento credenciado, como um mercado, e faz uma compra de R$20,00.
+O cliente faz um Pix de R$30,00 para o estabelecimento e recebe R$10,00 em espécie como troco.
+Existem taxas de Pix utilizando a Get Conta?
+Não. O Pix é totalmente gratuito.
+Como devolvo um Pix que recebi por engano?
+Sim, é possível cancelar um Pix recebido por engano. Para isso, basta seguir os passos abaixo:
+1. Acesse a opção "Pix" na sua Get Conta.
+2. Selecione a opção "Movimentações".
+3. Escolha a transação recebida por engano que deseja cancelar.
+4. Clique no botão "Devolver Pix".
+É importante lembrar que a devolução só pode ser realizada em até 90 dias após o recebimento do Pix. Além disso, é possível devolver o valor total ou parcial da transação, dependendo da sua escolha.
+É possível cancelar um Pix Agendado?
+Sim, é possível cancelar um Pix agendado. Para isso, basta seguir os passos abaixo:
+1. Acesse a opção "Pix" na sua Get Conta
+2. Selecione a opção "Agendamento Pix".
+3. Escolha o Pix agendado que deseja cancelar.
+4. Clique no botão "Cancelar".
+Recebi um Pix e o valor está bloqueado, o que eu faço?
+Caso uma transação Pix recebida na Get Conta tenha suspeita de fraude, o valor pode ficar bloqueado por até 72 horas para que sejam realizadas verificações de segurança adicionais. Após esse prazo, o Pix é liberado em sua Get Conta ou devolvido para o pagador. Durante as 72 horas, é possível devolver o valor ao pagador seguindo os passos abaixo:
+3. Escolha a transação bloqueada que deseja devolver ao pagador.
+Recebi um Pix e o valor foi contestado pelo MED, o que eu faço?
+Caso uma transação Pix recebida na Get Conta seja bloqueada pelo Mecanismo Especial de Devolução (MED), temos até 7 dias úteis para avaliar se o valor será devolvido para o pagador ou liberado para sua conta. Durante todo o processo, você será notificado. Após esse prazo, o Pix é liberado em sua Get Conta ou devolvido para o pagador. Durante as 72 horas é possível devolver o valor ao pagador seguindo os passos abaixo:
+Como faço para colocar o QR Code da Get Conta na minha maquininha?
+Atualmente, não é possível integrar o QR Code da Get Conta na maquininha.
+Tentei fazer um Pix mas no final apareceu um aviso de erro, o que eu faço?
+Ao se deparar com uma mensagem de erro ao tentar realizar um Pix, verifique no extrato se o valor foi debitado da sua Get Conta e aguarde alguns instantes antes de tentar novamente. Se a mensagem de erro indicar o telefone da Central de Atendimento (4002 4000 ou 0800 648 8000), entre em contato para obter mais detalhes.
+É possível cadastrar duas contas bancárias diferentes para o mesmo contato de confiança?
+Sim, é possível adicionar duas contas bancárias diferentes para o mesmo contato de confiança na sua Get Conta. Para isso, siga os passos abaixo:
+2. Selecione a opção "Meus Limites".
+3. Escolha a opção "Contato de Confiança".
+4. Selecione o contato desejado.
+5. Clique na opção "Adicionar conta".
+6. Repita os passos 4 e 5 para adicionar a segunda conta bancária.
+É importante lembrar que, ao adicionar duas contas bancárias diferentes para o mesmo contato de confiança, é necessário informar os dados bancários (banco, agência e conta) de cada conta. Além disso, é possível definir um limite para as transações realizadas com cada conta. A validação do Contato de Confiança tem um prazo de 48 horas.
+Voltar
+
+## Não é cliente?
+Adquira nossos produtos e impulsione suas vendas​​
+whatsApp
+Tenha suporte:
+Por telefone
+Ligue 4002-4000
+Por WhatsApp
+Prático e rápido.
+Nossas ofertas imperdíveis te aguardam:
+selecione uma opção e acesse agora!
+Já sou cliente!
+Ainda não sou cliente

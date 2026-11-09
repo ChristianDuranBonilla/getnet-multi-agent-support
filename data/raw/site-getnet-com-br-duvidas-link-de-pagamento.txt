@@ -1,0 +1,92 @@
+url: https://site.getnet.com.br/duvidas/link-de-pagamento/
+title: Arquivos Link de pagamento - Getnet
+
+## Já é cliente?
+Nos informe CPF ou CNPJ
+Para melhor direcionamento, informe o documento solicitado.
+VISITE
+O SITE
+Minha Conta
+Get Ajuda
+Fale Conosco
+Fale no WhatsApp
+Capitais e Regiões Metropolitanas
+4002-4000
+4003-4000
+Open
+
+## Como podemos te ajudar?
+Já sou cliente, e procuro um novo produto
+Já sou cliente, e procuro apenas produtos digitais
+Peguei a maquininha de outra pessoa, e preciso ativá-la em meu nome
+Não sou cliente, e procuro produtos digitais
+AVANÇAR
+
+## Link de pagamento
+O cliente Link de pagamento pode ter direito a recebimento D+2?
+Após 6 meses de utilização o cliente poderá solicitar a opção de recebimento em D+2 e o pedido será analisado.
+Se o cliente parar de transacionar por um período de tempo, e depois tentar gerar um Link de pagamento novamente, ele pode?
+O lojista pode ficar até 4 meses sem transacionar, se ele passar desse período, o Link de pagamento será desabilitado e ele terá que passar por todas as aprovações novamente
+O cliente já tem os pacotes recorrência ou loja virtual. Como ele pode usar o Link de pagamento?
+Todos os pacotes do e-commerce dão direito ao uso do link de Pagamento.
+O lojista já tem Getnet no mundo físico, ele precisa ser avaliado novamente por riscos e prevenção?
+Sim, mesmo que ele já tenha Getnet no mundo físico, é necessário passar pelas avaliações de risco e prevenção para liberar as vendas e-Commerce.
+Qual o SLA de atendimento para habilitação do Link de Pagamento?
+A habilitação ocorre no mesmo dia.
+Como os lojistas conseguem fazer a contratação do Link de Pagamento?
+- Clientes varejo: clientes varejo conseguem fazer a contratação através de 3 canais:
+a) Portal Minha Conta
+b) Via central de atendimento nos telefones 4002-4000 e 4003-4000
+c) Via célula de viabilidade no telefone 4002-4009 e no e-mail suporte@edigital.com.br
+d) site.getnet.com.br
+e) Aplicativo Getnet
+- Clientes atacado: clientes atacado conseguem fazer a contratação através de 3 canais:
+a) Através de um executivo Getnet – email: atendimento_atacado@getnet.com.br
+b) Através da implantação e-Commerce – email: implantação_ecommerce@getnet.com.br
+c) Através do Portal Minha Conta
+d) Aplicativo Getnet
+e) site.getnet.com.br
+Onde o lojista consegue criar e fazer a gestão dos links gerados?
+Dentro do portal minha conta e via API.
+É obrigatório o uso de antifraude para transações Link de Pagamento? Mesmo para os pacotes modulares?
+Sim, as transações de Link de Pagamento devem obrigatoriamente passar pelo antifraude. Independente do pacote ou tamanho do cliente.
+O lojista precisa ter um site ativo para poder utilizar o Link de Pagamento?
+Não. Mesmo que o lojista não tenha um site, ele consegue gerar o Link de Pagamento. Nesse caso, no campo url, ele deverá informar o endereço https://minhaconta.getnet.com.br
+Apenas clientes pessoas jurídicas podem usar Link de Pagamento?
+Não. O Link de Pagamento pode ser usado por pessoas físicas e Jurídicas
+Quais os custos desses dois pacotes?
+O Link de Pagamento Básico custa 28,00 mês/60 transações. Acima de 60 transações, o lojista deverá pagar 0,50 por transação excedente + o valor do MDR
+O Link de Pagamento Avançado custa 60,00 mês/150 transações. Acima de 150 transações, o lojista deverá pagar 0,50 por transação excedente + o valor do MDR
+Para o pacote modular, será cobrado o valor de MDR + fee
+Em quais pacotes o Link de Pagamento está disponível?
+Dentro de todos os pacotes do e-commerce.
+Quais lojistas podem ter Link de Pagamento?
+Tanto atacado quanto varejo podem ter Link de Pagamento.
+Quais são as formas de pagamento que o Link de Pagamento aceita?
+Cartão de crédito, débito, QR
+Code
+e Pix.
+O seu cliente recebe comprovante?
+Super! Na mesma hora do pagamento ele já consegue realizar o download do comprovante.
+O que o portador do cartão verá quando receber o link?
+Quando ele receber o link ele será redirecionado para o checkout Getnet, onde ele irá informar seus dados pessoais; endereço de entrega e escolherá a forma de pagamento
+Como o Link de Pagamento pode ser enviado?
+O vendedor pode enviar o Link de Pagamento para seus clientes por redes sociais, WhatsApp, email e SMS. O cliente clica no link, escolhe o método de pagamento e finaliza a compra.
+Quais os custos pra ter um Link de Pagamento?
+Você paga pelo plano assinado, mais a taxa do cartão que depende do número de parcelas e em quantos dias você quer o dinheiro na conta.
+Por quanto tempo a antecipação do cliente fica bloqueada?
+A antecipação das vendas e-Commerce fica bloqueada por 6 meses. Caso o cliente tenha produtos no mundo físico, ele conseguirá antecipar as do mundo físico normalmente
+Voltar
+
+## Não é cliente?
+Adquira nossos produtos e impulsione suas vendas​​
+whatsApp
+Tenha suporte:
+Por telefone
+Ligue 4002-4000
+Por WhatsApp
+Prático e rápido.
+Nossas ofertas imperdíveis te aguardam:
+selecione uma opção e acesse agora!
+Já sou cliente!
+Ainda não sou cliente

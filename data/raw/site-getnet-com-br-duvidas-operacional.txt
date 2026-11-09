@@ -1,0 +1,89 @@
+url: https://site.getnet.com.br/duvidas/operacional/
+title: Arquivos operacional - Getnet
+
+## Já é cliente?
+Nos informe CPF ou CNPJ
+Para melhor direcionamento, informe o documento solicitado.
+VISITE
+O SITE
+Minha Conta
+Get Ajuda
+Fale Conosco
+Fale no WhatsApp
+Capitais e Regiões Metropolitanas
+4002-4000
+4003-4000
+Open
+
+## Como podemos te ajudar?
+Já sou cliente, e procuro um novo produto
+Já sou cliente, e procuro apenas produtos digitais
+Peguei a maquininha de outra pessoa, e preciso ativá-la em meu nome
+Não sou cliente, e procuro produtos digitais
+AVANÇAR
+
+## operacional
+Como ligo ou desligo minha máquina?
+Confira o modelo da sua maquininha e siga as instruções como mostra abaixo:
+LIGAR: Pressione a tecla verde
+DESLIGAR: Pressione a tecla “ . ” (ponto) e a tecla amarela ao mesmo tempo, durante 2 segundos
+LIGAR: Pressione a tecla “ ” (seta para cima)
+LIGAR E DESLIGAR:
+Conecte na tomada para ligar e retire da tomada para desligar
+LIGAR:
+Pressione a tecla verde durante 5 segundos
+DESLIGAR:
+Pressione a tecla vermelha durante 5 segundos
+O que é Chargeback?
+A contestação de vendas ocorre quando um cliente questiona ao banco uma transação realizada no seu estabelecimento.
+Mediante essa reclamação, o banco realiza um procedimento denominado Chargeback, que consiste no cancelamento dessa transação, com débito na conta do estabelecimento.
+O Chargeback é regido por regras internacionais e pode ocorrer nas seguintes situações:
+1. Devolução de mercadoria, mercadoria não recebida, mercadoria entregue com defeito, mercadoria diferente da descrita, ou serviço não prestado adequadamente.
+2. Transação não reconhecida ou não autorizada pelo portador do cartão.
+Observação: Caso a venda tenha sido efetuada sem a presença do cartão, a transação poderá ser cancelada ainda que o seu estabelecimento comprove a realização da transação.
+3. Duplicidade de transação: única venda é processada mais de uma vez e não é reconhecida pelo portador do cartão.
+Não será considerada uma duplicidade caso seu estabelecimento apresente dois comprovantes distintos.
+4. Crédito não processado: quando o portador do cartão cancela a transação junto ao seu estabelecimento e o crédito (estorno) não foi lançado em sua fatura.
+5. Pagamento por meio alternativo: quando o portador do cartão alega que efetuou o pagamento da transação por outro meio (outro cartão, cheque ou dinheiro).
+Quais relatórios consigo imprimir no POS?
+RESUMO DO DIA
+Mostra um resumo das vendas confirmadas do dia anterior. Cumulativo por 5 dias, caso não seja extraído.
+Menu > Mastercard/Visa ou Bandeiras > SUPORTE > Resumo do dia > Digite a senha do lojista > A impressão Resumo do Dia será realizada.
+FECHAMENTO DAS VENDAS
+Menu > Mastercard/Visa ou Bandeiras > SUPORTE > Fechamentos > Digite a senha do lojista > Selecione:
+1. Parcial: impressão do relatório com o fechamento de todas as vendas desde o último fechamento parcial. Não zera à meia noite.
+2. Final: somatória das vendas efetuadas durante o dia vigente até o momento da impressão. Pode ser extraído quantas vezes necessitar. Zera à meia noite.
+3. Detalhado: impressão do relatório com o fechamento venda a venda, por ordem cronológica. Pode ser impresso até duas vezes por dia.
+4. Fechamento Final por Data: impressão do comprovante de vendas diário com opção do dia vigente ou de outra data (podendo ser até quatro dias anteriores ao dia vigente). Pode ser extraído quantas vezes for necessário. Zera à meia noite.
+Como realizo venda digitada?
+Acesse Menu > Bandeiras > Produtos > Crédito > Inserir Valor > Digitar número do cartão > Inserir Validade do Cartão > A vista ou Parcelado > Código de Segurança > Aguarde a impressão do comprovante.
+Obs: entre em contato com nossa central de atendimento e confira se este serviço está disponível para você.
+Como realizo o estorno de uma venda?
+Vendas realizadas no dia: Acesse Menu > Mastercard/Visa ou Bandeiras > Suporte > Estorno > Senha Lojista > Valor da Venda > Passe, insira ou digite o cartão > Crédito ou Débito > Número CV > Data Venda > Term Origem > Aguarde a impressão do comprovante.
+Vendas realizadas em outro dia: Ligue para a Central de Relacionamento Getnet.
+Como faço a reimpressão do comprovante de venda?
+Acesse o Menu > Bandeiras > SUPORTE > Reimprimir último > Senha Lojista > Selecione a via que deseja.
+Obs: Você conseguirá reimprimir o comprovante da última venda realizada na sua maquininha.
+Como realizo uma venda com cartão de débito ou de crédito?
+Para vendas no Débito:
+Insira o cartão > Selecione Débito > Digite o valor > Informe a senha > Aguarde impressão do comprovante.
+E para vendas no Crédito:
+Insira o cartão > Selecione crédito > Digite o valor > A vista ou parcelado > Digite a senha > Aguarde impressão.
+Como trocar a senha lojista?
+Acesse Menu > Mastercard/Visa ou Bandeiras > SUPORTE > Troca de senha loja > Digite a senha atual > Digite a nova senha > Digite novamente a nova senha.
+A sua primeira senha é informada pelo técnico, no momento da instalação. Caso você tenha esquecido sua senha atual, ligue para a Central de Relacionamento Getnet para recuperá-la.
+Obs.: Clientes Sicredi, contatar gerente de relacionamento.
+Voltar
+
+## Não é cliente?
+Adquira nossos produtos e impulsione suas vendas​​
+whatsApp
+Tenha suporte:
+Por telefone
+Ligue 4002-4000
+Por WhatsApp
+Prático e rápido.
+Nossas ofertas imperdíveis te aguardam:
+selecione uma opção e acesse agora!
+Já sou cliente!
+Ainda não sou cliente

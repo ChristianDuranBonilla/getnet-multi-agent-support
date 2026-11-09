@@ -1,0 +1,582 @@
+url: https://site.getnet.com.br/duvidas/
+title: Dúvidas e Perguntas Frequentes | Getnet
+
+## Já é cliente?
+Nos informe CPF ou CNPJ
+Para melhor direcionamento, informe o documento solicitado.
+VISITE
+O SITE
+Minha Conta
+Get Ajuda
+Fale Conosco
+Fale no WhatsApp
+Capitais e Regiões Metropolitanas
+4002-4000
+4003-4000
+Open
+
+## Como podemos te ajudar?
+Já sou cliente, e procuro um novo produto
+Já sou cliente, e procuro apenas produtos digitais
+Peguei a maquininha de outra pessoa, e preciso ativá-la em meu nome
+Não sou cliente, e procuro produtos digitais
+AVANÇAR
+
+## Está com dúvidas?
+
+## nós podemos te ajudar!
+qual a melhor maquininha para mim?
+ver mais
+
+## sua maquininha
+
+## sem dúvidas
+
+## Há alguma taxa extra para usar o Aplicativo Getnet Brasil?
+saiba mais
+
+## Como faço para baixar o Aplicativo Getnet Brasil?
+R: Baixe através da
+App Store
+ou na
+Play Store
+, de acordo com o seu celular.
+
+## confira as dúvidas
+
+## das maquininhas
+
+## Get Smart
+Como realizo o cancelamento de uma venda da Get Smart realizada em dias anteriores?
+Somente entrando em contato com nossa central de atendimento no telefone 4003-4000.
+Fiz uma venda duplicada na minha Get Smart, em menos de 5 minutos, preciso realizar o estorno?
+Se ocorrerem duas (02) vendas idênticas no mesmo estabelecimento e no período de 5 minutos (mesmo cartão, bandeira, valor), a segunda será cancelada automaticamente. Caso seja necessário repetir uma transação, deve-se aguardar 5 minutos ou informar um valor diferente.
+Como proceder para que minha bateria da Get Smart se mantenha com uma boa duração?
+Deixe a bateria carregando sempre que possível e, de preferência, por pelo menos 3 horas seguidas. Não espere a bateria descarregar completamente para recarregá-la. O ideal é carregar a bateria quando o nível estiver em 20%.
+A Get Smart aceita pagamento com auxilio emergencial?
+Sim, basta fazer o processo de pagamento com
+QR Code
+, selecionando a opção débito.
+
+## demais
+
+## dúvidas
+
+## Algar
+Como insiro o Chip na minha máquina?
+Siga os passos a seguir:
+– Com a máquina desligada, abra a tampa na parte de trás
+– Insira o chip no local destinado, sinalizado com SIM1 ou SIM2, com a parte metálica voltada para baixo
+– Feche a tampa, ligue a máquina e aguarde a conexão de rede de dados
+– Com a indicação de rede conectada (2G ou 3G), a máquina está pronta para uso
+– Faça um teste de comunicação para verificar a conectividade do seu chip, seguindo os passos:
+• Pressione o botão função – F, # ou o da sua máquina
+• Pressione 60
+• Selecione a opção 2 – manutenção
+• Selecione a opção 1 – teste de comunicação
+Quais os benefícios do Chip Algar?
+– Um único Chip que se conecta a várias operadoras
+– Você pode utilizar a sua máquina em qualquer local com cobertura 2G/3G
+– Elimina necessidade de trocas de Chip
+O que é o Chip Algar?
+O chip algar é um chip multioperadora, ou seja, é uma solução na qual um único chip se conecta a várias operadoras, garantindo a conectividade em todo o Brasil.
+
+## Aluguel
+Quais bandeiras são consideradas para compor o faturamento mínimo estipulado pela condição comercial?
+Para conceder o benefício da isenção, será avaliado qual foi o valor transacionado nas bandeiras Visa, Master, Elo, Amex e Hipercard. Não é considerado o faturamento de voucher.
+As condições comerciais são cumulativas? O que acontecerá caso ocorra a contratação de uma nova condição comercial?
+As condições comerciais não são cumulativas, sempre prevalecerá ativa a última condição comercial aceita.
+O que acontece caso eu não consiga cumprir as contrapartidas da condição comercial contratada?
+Você apenas não receberá o desconto no mês em questão, mas continuará elegível a receber o desconto nos próximos meses, enquanto a oferta estiver vigente.
+O que devo fazer para receber o desconto previsto na condição comercial contratada?
+Ao realizar a contratação de uma condição comercial, você receberá um e-mail com o detalhamento desta contratação. Cada uma delas possui uma contrapartida diferente, normalmente elas estão relacionadas ao tipo de máquina e prazo de recebimento que você optou e para receber o desconto previsto é necessário permanecer com estas, atingir o faturamento mínimo exigido e estar adimplente.
+
+## Aluguel Zero
+Quantas tecnologias posso adquirir?
+Essa condição comercial contempla até 3 tecnologias, entretanto, caso o cliente necessite de uma quantidade superior de equipamentos, a contratação está disponível no valor integral mensal de R$69,90, por tecnologia (POS 3G+WIFI ou POS CHIP – GPRS).
+
+## antecipação de vendas
+O que é antecipação de vendas?
+O cliente pode receber antecipadamente os valores das vendas realizadas na função de crédito, sejam à vista ou parceladas. Ou seja, o cliente, não precisará aguardar até o prazo de compensação para receber em sua conta o valor das vendas realizadas na maquininha.
+O que é gravame e como ele funciona?
+Gravame é o nome do novo mecanismo que irá substituir a Trava de Domicílio Bancário.
+Na prática, o funcionamento é muito semelhante ao que já temos hoje: Ao realizar uma negociação/contrato de crédito com uma Instituição Financeira (banco) utilizando os seus recebíveis
+o seu fluxo/agenda de recebíveis será direcionado ao banco para garantir a operação feita.
+O que acontece com a trava que tenho atualmente?
+A trava será transformada em Gravame ou Cessão Externa de acordo com a regra de cada instituição.
+O que é Cessão?
+A Cessão é um tipo de operação que é feita no mercado, onde a titularidade dos recebíveis é transferida
+/cedida
+para uma outra pessoa/comprador.
+
+## app Getnet
+Como eu antecipo as minhas vendas?
+O Aplicativo Getnet Brasil está sempre disponível para você antecipar as suas vendas.
+Não. Você usa o Aplicativo Getnet Brasil sem cobrança de taxas adicionais.
+O aplicativo funciona tanto em smartphones ou tablets que tenham o sistema operacional Android a partir da versão 4.4 ou IOS a partir da versão 8, facilitando o gerenciamento do seu negócio de qualquer lugar. Baixe o Aplicativo Getnet Brasil gratuitamente na
+O que acontece se eu trocar meu smartphone ou tablet? Como devo proceder?
+Você pode fazer um backup, para não perder seus dados e Aplicativos. No Android, você utiliza a sua conta Google para recuperar os seus aplicativos, e no IOS você utiliza o iCloud. Assim, você acessa com CPF e senha de qualquer dispositivo.
+
+## App Getnet Brasil
+Como altero os dados cadastrais pelo Aplicativo Getnet Brasil?
+Não é possível alterar os seus dados cadastrais pelo Aplicativo Getnet Brasil. Se necessário, entre em contato com a nossa Central de Relacionamento nos telefones: Capitais e regiões metropolitanas: 4002-4000 | 4003-4000 e Demais localidades 0800-648-8000
+Como redefinir a senha de acesso do meu Aplicativo Getnet Brasil?
+Para alterar a senha de acesso do seu Aplicativo Getnet Brasil, basta acessar a “Esqueci a senha” no Aplicativo Getnet Brasil ou no
+Portal Minha Conta
+Consigo visualizar minhas vendas no meu Aplicativo Getnet Brasil?
+Ainda não, no Aplicativo Getnet Brasil você verá apenas o saldo total que possui em sua Get Conta. Para acessar seu extrato de vendas acesse o aplicativo Getnet. Acesse a sua loja de aplicativos e baixe agora o aplicativo Getnet.
+Como redefinir a senha do meu Aplicativo Getnet Brasil?
+Para alterar a senha do Aplicativo Getnet Brasil, basta acessar a “Esqueci a senha” no Aplicativo Getnet Brasil ou no
+
+## bandeiras
+Qual é a taxa cobrada para os cartões de benefícios e regionais?
+As taxas dos cartões de benefícios e regionais são negociados diretamente com as bandeiras. Para isso, basta você selecionar neste
+link
+a bandeira desejada que apresentaremos todos os telefones disponíveis para você entrar em contato.
+Como eu obtenho o extrato das minhas vendas realizadas com os cartões de benefícios?
+Esta informação é disponibilizada diretamente pela bandeira do cartão benefício, basta entrar em contato na Central de atendimento da bandeira para obter o extrato. Caso queira, lá em nosso portal ou em nosso site, disponibilizamos o telefone de todas as bandeiras.
+Como eu altero/atualizado meu domicílio bancário?
+Basta você entrar em contato com a Central de atendimento no telefone 4002-4000 e solicitar a mudança.
+Como eu realizo a ativação para os cartões de benefícios e outras bandeiras?
+O processo é bem simples: Listamos no link abaixo os telefones de atendimento de todas as bandeiras disponíveis para aceitar em sua máquina Getnet. Basta entrar em contato com a bandeira desejada e solicitar a habilitação.
+https://site.getnet.com.br/bandeiras/#mais-bandeiras
+
+## cancelamento/descredenciamento
+Como o aluguel será cobrado depois do cancelamento da máquina?
+A cobrança de aluguel é realizada primeiramente na agenda de recebíveis das transações com os cartões Mastercard/Visa. Após um mês de tentativas de cobrança, os valores pendentes serão cobrados de outras formas: débito em conta corrente, boleto, ou por meio de agência de cobrança.
+Depois de cancelar a parceria, posso antecipar os recebíveis?
+Não.
+Quando cancelo a máquina, quanto tempo ainda posso utilizar?
+Após a solicitação de cancelamento, não será mais possível utilizar o equipamento.
+Quero cancelar minha parceria, como faço?
+Entre em contato com a nossa Central de Relacionamento de segunda à sexta-feira, das 8h às 18h.
+
+## carreira
+Não estou cursando/não tenho o ensino superior. Posso participar?
+Pode sim, porém para participar do processo seletivo, buscamos pessoas formadas ou cursando (não necessariamente ensino superior) nas áreas de Tecnologia ou Negócios/Produtos.
+Qual a localidade das oportunidades?
+As oportunidades são para Porto Alegre e São Paulo.
+O processo seletivo é exclusivo para candidatura externa?
+Não, colaboradora também pode participar, desde que atenda
+os requisitos divulgados, de tempo de empresa, cargo.
+Quem é de outra cidade, terá ajuda moradia ou ajuda de custo para mudança?
+O custo de mudança e moradia é de total responsabilidade
+da candidata aprovada.
+
+## Cartão Getnet
+Como faço para gerar um cartão virtual?
+Para gerar um cartão virtual, é só acessar o Aplicativo Getnet Brasil:
+Acesse o menu “Cartões”, selecione “Gerar Cartão Virtual”;
+Digite a senha do aplicativo;
+Pronto, o seu cartão será ativado e você já pode começar a usá-lo.
+Como faço para solicitar o cartão Getnet?
+Caso você seja elegível a solicitar um cartão físico:
+Acesse seu Aplicativo Getnet Brasil
+Selecione o menu “Meus Cartões”, selecione “Cartão Físico”
+Verifique o endereço cadastrado
+Selecione “Solicitar cartão”
+Digite a senha do aplicativo
+Pronto, seu cartão foi solicitado, aguarde o prazo de entrega e realize a ativação.
+Como ativar/desbloquear o meu cartão Getnet?
+Para ativar o seu cartão Getnet, basta baixar o Aplicativo Getnet Brasil na App Store ou Google Play
+Para o seu primeiro acesso, você deve informar o seu CPF e dados cadastrais para criação do login e senha do seu aplicativo
+Valide o e-mail cadastrado durante o credenciamento realizado na Getnet. Você receberá um código de ativação no seu e-mail para validação
+No App, acesse o menu “Cartões”
+Digite os dados do verso do seu cartão Getnet
+Crie uma senha de 4 dígitos para realizar compras com o seu Cartão Getnet e fazer movimentações no seu App Getnet
+Pronto, o seu cartão foi ativado e você já pode começar a usá-lo
+Qual a senha do meu cartão?
+Ao desbloquear o cartão, você cadastra uma senha de 4 dígitos, essa senha é necessária para utilização do cartão em compras e saques na rede 24h.
+
+## crediário
+Como eu contrato o Crediário e qual a taxa?
+A habilitação pode ser realizada através do aplicativo Getnet (Android e iOS) ou através da central. É possível consultar se o Crediário está habilitado para o seu Estabelecimento no Aplicativo da Getnet (acesse em: Meu negócio > Taxas e modalidades > Cartões) ou no
+
+## Portal do Cliente
+. Você também pode contatar a Central de Atendimento para verificar se o seu Estabelecimento está habilitado para operar com a modalidade. Caso a modalidade esteja habilitada, mas a opção Crediário ainda não esteja disponível em sua máquina, é importante realizar uma transação de adquirência (bandeiras Mastercard, Visa, Elo e Amex) ou proceder com a inicialização do terminal (Suporte > Bandeiras > Funções Técnicas > Inicialização). A taxa de desconto do Crediário é parte integrante do seu contrato de Adesão ao Sistema Getnet e pode ser consultada no Portal do Cliente e/ou no Aplicativo Getnet Brasil.
+Até quantas parcelas posso fazer e como sei os juros para informar ao meu cliente (portador do cartão)?
+Cada emissor de cartão estabelece o limite de parcelas conforme as suas políticas de crédito.
+Os juros ao cliente (portador do cartão) serão visualizados por meio da simulação realizada diretamente na maquininha: Inserindo o cartão, incluindo o valor e a opção de pagamento na opção crédito > crediário.
+É possível também a impressão do comprovante da simulação na maquininha com bobina, assim o cliente conseguirá avaliar os juros e o valor final da compra.
+Lembrando que a simulação é apenas para consulta, sendo sujeita a análise de crédito, portanto, cabe ao emissor do cartão aprovar a transação no momento da contratação.
+Onde visualizo o pagamento e em que prazo eu recebo?
+As informações de pagamento podem ser consultadas no Aplicativo Getnet (Vendas) e/ou no
+Portal do Cliente.
+Todas as vendas realizadas na modalidade Crediário são pagas em até 2 dias úteis após a captura da transação, de uma única vez, independente da quantidade de parcelas escolhida pelo portador. Lembrando que do valor da transação original é subtraído o valor da taxa de desconto.
+Qualquer estabelecimento pode ter o Crediário? E se eu não quiser ter o produto?
+A habilitação do produto Crediário está sujeita à análise pela Getnet.
+Caso você não deseje ter o Crediário como mais uma opção de pagamento, basta entrar em contato com a Central de Atendimento da Getnet e solicitar a desabilitação desta modalidade.
+
+## Get Conta
+O que é a Getnet?
+A Getnet é uma plataforma de soluções para seu negócio integrada de maneira inteligente e tecnológica para que desde o momento em que você recebe o dinheiro de uma venda até o momento em que utiliza esse dinheiro como quiser, você esteja acompanhado por nossas facilidades e nosso atendimento parceiro.
+O que é a Get Conta? Quais os benefícios?
+É uma conta digital gratuita para sua empresa, sem burocracia e taxas escondidas, através de uma parceria com a Dock IP, você tem sua própria agência e conta.
+Aqui, você pode:
+Ter um cartão gratuito para realizar compras online ou físicas
+Consegue enviar e receber dinheiro, além de vender por meio do Pix
+Receber suas vendas em até 2 dias uteis no período da manhã no seu cartão*
+Realizar transferências e pagamentos de contas
+Efetuar saque em qualquer Banco 24Horas
+*Caso escolha a opção de recebimento em dois dias depois da venda feita
+Quem pode abrir uma Get Conta?
+A conta está disponível para você, pessoa física e/ou jurídica, que tenha empresa de todos os tipos: MEI, EI, EIRELI, FRANQUIA e LTDA.
+Como faço para abrir uma Get Conta? Preciso ter uma máquina de cartão?
+Para abrir uma Get Conta, basta acessar o
+nosso site
+, escolher uma máquina de aluguel ou compra e optar por receber suas vendas na Conta. A abertura da conta é feita na hora e você terá acesso a um cartão pré-pago gratuitamente para fazer compras nas lojas de todo Brasil e online.
+Caso não queira ter uma máquina, você pode abrir uma conta para realizar transferências, pagamentos de boletos e ter com um cartão pré-pago.
+Solicite através do
+credenciamento digital
+na aba “Credenciamento” > Sem máquina > preencher os dados cadastrais para abertura.
+
+## Get Tap
+O que é o Get Tap?
+É uma funcionalidade dentro do APP Getnet que transforma o seu celular em maquinha para receber vendas por aproximação com cartão, carteiras digitais e dispositivos que tenham NFC.
+O Get Tap funciona no meu celular?
+Para receber vendas via Get Tap, o seu dispositivo precisa ter o sistema operacional a partir do Android 12 e a tecnologia NFC.
+Confirme se o seu aparelho é compatível no próprio aplicativo da Getnet:
+Acesse o App Getnet, clique em
+Vender
+e em
+Get Tap – Aproximação.
+Na tela seguinte informaremos caso o seu aparelho
+não
+seja compatível.
+Além disso, por questões de segurança, faremos uma análise do seu dispositivo e, assim que aprovado, estará disponível para uso.
+O que é NFC e por que preciso o possuir no meu celular?
+NFC é uma tecnologia que permite que dispositivos próximos troquem informações. É a partir do NFC que os dados do cartão (ou outro meio de pagamento) são criptografados e enviados para que possamos processar a transação, por isso é necessário que o seu dispositivo tenha essa tecnologia.
+Quais os requisitos mínimos para ter o Get Tap?
+O seu dispositivo precisa ter o sistema operacional a partir do Android 12 e tecnologia NFC. Possuindo esses requisitos, por questões de segurança, faremos uma análise do seu dispositivo e, assim que aprovado, estará disponível para uso.
+
+## home
+Por que contratar uma solução da Getnet?
+A Getnet é a parceira de negócio ideal pra você que precisa de uma maquininha de cartão ou quer vender online. Somos RA1000 no Reclame Aqui, atendemos nossos clientes 24h por dia durante os 7 dias da semana e estamos espalhados em mais de 5.400 municípios em todo Brasil com mais de 1,4MM de máquinas instaladas. Vem com a gente!
+
+## Link de pagamento
+O cliente Link de pagamento pode ter direito a recebimento D+2?
+Após 6 meses de utilização o cliente poderá solicitar a opção de recebimento em D+2 e o pedido será analisado.
+Se o cliente parar de transacionar por um período de tempo, e depois tentar gerar um Link de pagamento novamente, ele pode?
+O lojista pode ficar até 4 meses sem transacionar, se ele passar desse período, o Link de pagamento será desabilitado e ele terá que passar por todas as aprovações novamente
+O cliente já tem os pacotes recorrência ou loja virtual. Como ele pode usar o Link de pagamento?
+Todos os pacotes do e-commerce dão direito ao uso do link de Pagamento.
+O lojista já tem Getnet no mundo físico, ele precisa ser avaliado novamente por riscos e prevenção?
+Sim, mesmo que ele já tenha Getnet no mundo físico, é necessário passar pelas avaliações de risco e prevenção para liberar as vendas e-Commerce.
+
+## Loja Digital
+Quais são as taxas de adquirência da Loja Virtual?
+A Loja Virtual conta com plano único de taxas
+“Receba suas vendas conforme parcelas”
+Crédito à vista
+: 2,80% + 0,90 por transação do (Antifraude)
+Recebimento em 31 dias.
+Crédito 2x a 6x
+: 3% + 0,90 por transação (Antifraude)
+Recebimento em 31 dias + 30 dias por parcela.
+Crédito 7x a 12x
+: 3,15% + 0,90 por transação (Antifraude)
+Eu quero mudar para um plano que se adeque melhor para as minhas necessidades. Como eu faço isso?
+Acesse o site:
+https://www.minestore.com.br/planos
+Veja o plano que mais se adequa ao seu negócio e clique em contratar agora.
+Preencha o formulário para fazer contato com a Minestore e realizar a alteração.
+E quanto a mensalidade do meu plano? Como eu faço para pagar?
+A cobrança das mensalidades é apenas para os planos Plus e Prime. Você receberá um link de pagamento para pagar a mensalidade. A mensalidade começa a ser cobrada a partir do momento do upgrade da sua loja.
+Quais são os planos da minestore?
+A Minestore trabalha com 3 modalidades de planos:
+Plano Up
+Plano Plus
+Plano prime
+Todas as lojas ao serem criadas entram automaticamente no plano Up, e caso queiram ter acesso a outras funcionalidades, você deve alterar para o plano Plus ou Prime. Escolha o que mais se adequar para a necessidade do seu negócio.
+
+## Mais respostas sobre o Pix​
+O que é o Pix? E quais as vantagens?
+O Pix é um meio de pagamento criado pelo Banco Central para fazer pagamentos e receber transferências de forma instantânea e gratuita. Diferente da TED, o Pix permite transações 24h por dia, 7 dias por semana, fins de semana e feriados. Pode ser feito por conta corrente, poupança ou conta de pagamento pré-paga entre diferentes bancos. As vantagens do Pix vai desde ser rápido, seguro, disponibilização imediata dos recursos.
+O que são chaves Pix?
+A chave Pix é o identificador da sua conta bancária. Existem 4 tipos de chave que serão usadas pra fazer pagamentos e transferências:
+– CPF ou CNPJ – se for uma empresa
+– E-mail
+– Número de celular
+Você também pode criar uma chave aleatória, sendo um código de 32 caracteres gerado pelo Banco Central para ser vinculado à sua conta.
+Como cadastrar minhas chaves na minha Get Conta?
+Para cadastar uma chave Pix na sua Get Conta, você deve acessar o Aplicativo Getnet Brasil > Conta > Pix > Minhas Chaves > Cadastrar chave.
+Como fazer um Pix pela Get Conta?
+Ao acessar sua Get Conta, vá até a opção Pix, onde você encontrará as alternativas para realizar uma transferência via Pix: transferência com Chave, leitura de QR Code e transferência com número de agência e conta.
+
+## Mundo Open
+O que é Open Finance?
+É um sistema regulamentado pelo Banco Central do Brasil que vai permitir o livre compartilhamento de serviços e dados dos clientes entre instituições financeiras, de maneira segura e prática, para ter acesso a produtos e serviços diferenciados.
+Quais são os benefícios do Open Finance?
+Para o cliente, histórico vitalício entre o sistema financeiro brasileiro, produtos personalizados, total controle de suas informações, aumenta a competitividade entre as instituições financeiras
+permitindo ofertas dinâmicas, cliente passa a ter uma maior gestão financeira, além de ainda ser assegurado por todas as Leis Gerais de Proteção de Dados.
+Quando o Open Finance começa a funcionar?
+O Open
+Finance
+está sendo implementado em fases, conforme cronograma do Banco Central, sendo que a fase 1 teve início em fevereiro de 2021.
+Desde
+/2021, você pode
+compartilhar dados cadastrais e transacionais relativos a pagamentos, cartões de crédito, financiamentos, empréstimos entre outros.
+O que é Consentimento?
+É a autorização dada à
+Getnet
+para que esta possa acessar os seus dados junto à instituição que você possui relacionamento, podendo assim lhe dar acesso a produtos e serviços direcionados exclusivamente
+você, sem ter que migrar de instituição ou usar diferentes aplicativos. O Open
+é opcional e seus dados só serão compartilhados mediante o seu consentimento.
+
+## operacional
+Como ligo ou desligo minha máquina?
+Confira o modelo da sua maquininha e siga as instruções como mostra abaixo:
+LIGAR: Pressione a tecla verde
+DESLIGAR: Pressione a tecla “ . ” (ponto) e a tecla amarela ao mesmo tempo, durante 2 segundos
+LIGAR: Pressione a tecla “ ” (seta para cima)
+LIGAR E DESLIGAR:
+Conecte na tomada para ligar e retire da tomada para desligar
+LIGAR:
+Pressione a tecla verde durante 5 segundos
+DESLIGAR:
+Pressione a tecla vermelha durante 5 segundos
+O que é Chargeback?
+A contestação de vendas ocorre quando um cliente questiona ao banco uma transação realizada no seu estabelecimento.
+Mediante essa reclamação, o banco realiza um procedimento denominado Chargeback, que consiste no cancelamento dessa transação, com débito na conta do estabelecimento.
+O Chargeback é regido por regras internacionais e pode ocorrer nas seguintes situações:
+1. Devolução de mercadoria, mercadoria não recebida, mercadoria entregue com defeito, mercadoria diferente da descrita, ou serviço não prestado adequadamente.
+2. Transação não reconhecida ou não autorizada pelo portador do cartão.
+Observação: Caso a venda tenha sido efetuada sem a presença do cartão, a transação poderá ser cancelada ainda que o seu estabelecimento comprove a realização da transação.
+3. Duplicidade de transação: única venda é processada mais de uma vez e não é reconhecida pelo portador do cartão.
+Não será considerada uma duplicidade caso seu estabelecimento apresente dois comprovantes distintos.
+4. Crédito não processado: quando o portador do cartão cancela a transação junto ao seu estabelecimento e o crédito (estorno) não foi lançado em sua fatura.
+5. Pagamento por meio alternativo: quando o portador do cartão alega que efetuou o pagamento da transação por outro meio (outro cartão, cheque ou dinheiro).
+Quais relatórios consigo imprimir no POS?
+RESUMO DO DIA
+Mostra um resumo das vendas confirmadas do dia anterior. Cumulativo por 5 dias, caso não seja extraído.
+Menu > Mastercard/Visa ou Bandeiras > SUPORTE > Resumo do dia > Digite a senha do lojista > A impressão Resumo do Dia será realizada.
+FECHAMENTO DAS VENDAS
+Menu > Mastercard/Visa ou Bandeiras > SUPORTE > Fechamentos > Digite a senha do lojista > Selecione:
+1. Parcial: impressão do relatório com o fechamento de todas as vendas desde o último fechamento parcial. Não zera à meia noite.
+2. Final: somatória das vendas efetuadas durante o dia vigente até o momento da impressão. Pode ser extraído quantas vezes necessitar. Zera à meia noite.
+3. Detalhado: impressão do relatório com o fechamento venda a venda, por ordem cronológica. Pode ser impresso até duas vezes por dia.
+4. Fechamento Final por Data: impressão do comprovante de vendas diário com opção do dia vigente ou de outra data (podendo ser até quatro dias anteriores ao dia vigente). Pode ser extraído quantas vezes for necessário. Zera à meia noite.
+Como realizo venda digitada?
+Acesse Menu > Bandeiras > Produtos > Crédito > Inserir Valor > Digitar número do cartão > Inserir Validade do Cartão > A vista ou Parcelado > Código de Segurança > Aguarde a impressão do comprovante.
+Obs: entre em contato com nossa central de atendimento e confira se este serviço está disponível para você.
+
+## Pagamento Carnê
+O que é e como funciona o Pagamento Carnê?
+O Pagamento de Carnê é uma modalidade de pagamento em que o portador do cartão pode parcelar sua compra utilizando transações de Débito. Possui MDR atrativo, e opera nas bandeiras Mastercard, Visa e Elo.
+Está disponível para clientes Atacado, que possuem cobrança via Carnê, e a administração das parcelas se dá pelo Estabelecimento Comercial. Possui demonstrativo no Portal do Cliente.
+Sua habilitação se dá através de contato com Executivo ou através da Central de Relacionamento Getnet (4002-4000 e 4003-4000 – Capitais e Regiões metropolitanas e 0800-648-8000 – Demais localidades).
+
+## Parcelado
+Quais modalidades de Crédito Parcelado estão disponíveis na Getnet?
+Na Getnet, estão disponíveis as modalidades Parcelado Emissor e Parcelado Lojista.
+No Parcelado Emissor, o seu cliente parcela as compras e assume as despesas relacionadas aos juros do parcelamento, pois o financiamento é feito diretamente com o banco emissor ou pela administradora do cartão. A modalidade admite até 24 parcelas, recebidas de uma vez dentro de 2 a 31 dias conforme seu plano de recebimento; sendo a taxa aplicada somente uma vez.
+Já no Parcelado Lojista, o seu cliente pode parcelar suas compras sem juros e o valor da transação pode ser parcelado conforme prazo acordado com o seu estabelecimento, obedecendo o limite de até 12 parcelas. O valor da primeira parcela é lançado na fatura do portador do cartão conforme sua data de fechamento, e as demais são agendadas sempre no mesmo dia da primeira parcela. Para o seu estabelecimento, a primeira parcela será paga em D+31 e as demais em 30 dias após o pagamento da parcela anterior, de acordo com o número de parcelas.
+
+## Pix
+O que são Chaves Pix?
+É um “apelido” que você escolhe para sua conta para facilitar o recebimento de transações diretamente por meio deste apelido. A chave também permite gerar QR Codes. Cada correntista (PF ou PJ) pode vincular os seguintes tipos de chaves à sua conta:
+CPF/CNPJ
+Telefone Celular
+E-mail
+Chave Aleatória
+Dica: Ideal que você use uma chave aleatória ou CNPJ, pois
+o dado fica visível ao pagador.
+Pessoas físicas poderão ter até 5 chaves Pix por conta transacional da qual for titular. Pessoa jurídica, até 20 chaves. O limite de chaves é aplicado para cada conta transacional, independentemente da quantidade de titulares da conta. Uma mesma chave só pode estar vinculada a uma única instituição.
+Quantas chaves Pix eu devo inserir na Getnet?
+Para contratar o produto na Getnet, é necessário informar somente uma chave de sua escolha que esteja atrelada à conta de recebimento desejada. Ou seja, caso você tenha mais de uma chave Pix cadastrada no seu domicílio bancário, escolha uma delas para informar à Getnet!
+Como faço para contratar o Pix na Getnet?
+A partir de 16/11/20, você pode acessar um dos canais digitais Getnet (Portal Minha Conta ou Aplicativo Getnet) e fazer a contratação por lá, digitando a mesma chave que você cadastrou no seu domicílio bancário* onde receberá o Pix.
+*Consulte a disponibilidade dos PSP já integrados a Getnet na nossa Central de Atendimento. Em breve a solução para os demais domicílios estará disponível!
+Você pode saber mais sobre a contratação no e-book Pix disponível na página principal
+https://site.getnet.com.br/pix/
+Como funciona o Pix na Getnet?
+Na Getnet é possível receber pagamentos com Pix gerando QR Code direto nos nossos meios de captura. A funcionalidade Pix está disponível nos terminais físicos, no TEF Auttar e no Ecommerce. Ou seja, em qualquer canal, você terá mais uma forma de pagamento para oferecer a seus clientes!
+
+## Plano Light
+Como funciona o Plano Light?
+Ao contratar o Plano Light, você pagará 12 parcelas completas e, após este período, terá 100% de desconto;
+Nos primeiros meses, o valor das parcelas pode variar conforme o seu faturamento. Caso contrate uma Getnet, nos meses que faturar pelo menos R$ 1,00, pagará apenas R$ 12,90, caso não fature, o valor da parcela será de R$ 29,90. E, caso contrate um POS 3G + wi-fi, nos meses que faturar pelo menos R$ 1,00, pagará apenas R$ 19,90, caso não fature, o valor da parcela será de R$ 79,90;
+Para avaliar o faturamento de R$ 1,00, serão consideradas apenas as modalidades débito e crédito das bandeiras Visa, Mastercard, Elo, Amex, Hiper e Hipercard;
+O desconto na parcela do mês vigente será concedido em função do faturamento entre os dias 21 do mês anterior e 20 do mês atual;
+Essa condição é válida para 1 (UMA) máquina;
+Essa oferta não é cumulativa com demais ofertas/benefícios. Caso contrate outra oferta, está deixará de ser válida e você perderá as condições aqui descritas.
+O que eu preciso fazer para obter o desconto nas 12 parcelas?
+É necessário faturar pelo menos R$1, nas modalidades débito e crédito das bandeiras Visa, Mastercard, Elo, Amex, Hiper e Hipercard;
+É necessário estar adimplente;
+É necessário manter o prazo de recebimento D2 habilitado;
+É necessário permanecer com o modelo de máquina contratado.
+O que acontece se eu não faturar ou não atingir as outras contrapartidas da oferta?
+Até que finalize o pagamento das 12 parcelas, nos meses que não atingir as contrapartidas, você pagará o valor sem desconto (Getnet R$29,90 ou POS móvel R$79,90);
+Após o término do pagamento das 12 parcelas, caso fique sem transacionar por mais de 90 dias, faremos a retirada da sua máquina. Durante os primeiros meses a máquina só será retirada, caso você fique sem transacionar e, também tiver mais de 2 títulos em aberto.
+
+## Pré Autorização
+O que é e como funciona a Pré-Autorização?
+Com a Pré-autorização, seu estabelecimento pode reservar temporariamente o valor da venda no cartão de crédito do cliente para confirmar posteriormente a transação, com prazo de confirmação de até 30 dias. Durante esse período, o valor pode ser alterado até quatro vezes.
+Ela opera nas bandeiras Visa, mastercard, ELO, Hipercard e AMEX*, no Crédito à vista ou Parcelado Lojista. A Pré-Autorização transaciona na Getnet (exceto sem bobina), POS, TEF e E-Commerce.
+A sua habilitação pode ser feita através dos canais abaixo:
+Central de Relacionamento Getnet (4002-4000 e 4003-4000 – Capitais e Regiões metropolitanas e 0800-648-8000 – Demais localidades);
+*exceções: cartões Corporate da AMEX e cartões internacionais emitidos fora do país, de todas as Bandeiras.
+
+## solução de dívidas
+Tenho débitos e quero negociá-los, como proceder?
+Agora você mesmo pode visualizar seus débitos e negociá-los através dos canais abaixo:
+Portal do Cliente:
+https://www.santandergetnet.com.br/site/index
+Portal Recargas:
+https://portal.getnet-tecnologia.com.br/
+Eu concluí a negociação, de que forma receberei meu boleto?
+O boleto será enviado para seu endereço de e-mail registrado em Cadastro, ou aquele digitado no momento da negociação.
+1. Acesse:
+www.santandergetnet.com.br
+2. Preencha seu login e senha para acessar a área restrita do Portal
+3. No menu à esquerda, clique em Solução de Dívidas;
+4. Na tela Títulos, selecione Abertos;
+5. Na tela Negociação, você poderá simular a negociação e enviar uma contraproposta ou então concluir.
+
+## Portal Recargas
+http://portal.getnet-tecnologia.com.br
+2. Preencha seu login e senha para acessar a área restrita do Portal;
+3. No menu à esquerda, clique em Menu Telefonia;
+4. Clique em Financeiro e na sequência, em Soluções de Dívidas;
+5. Na tela Títulos, selecione Abertos;
+6. Na tela Negociação, você poderá simular a negociação e enviar uma contraproposta ou então concluir.
+Não concordo com as sugestões dadas de parcelamento, gostaria de negociar de outra forma, como proceder?
+Neste caso, você poderá clicar na opção para “enviar-nos uma contra proposta”. A proposta será analisada pela área responsável que dará o devido retorno.
+Porque aparecem valores divididos entre Aluguel, Aluguel ADQ, Recarga, etc.?
+Deverá ser gerado um boleto para cada serviço que você tem contratado com a Getnet. Por exemplo, se você possui:
+– R$ 10,00 em aberto de Recarga Telefônica;
+– R$ 15,00 em aberto de Aluguel Adquirência;
+Você efetuará duas negociações, ou seja, serão dois boletos a pagar.
+Importante!
+Segue classificação de cada serviço que você poderá encontrar:
+Aluguel: Quando sua maquininha não aceita Visa e MasterCard;
+Aluguel ADQ: Quando sua maquininha aceita Visa e MasterCard, além de outros cartões;
+Recarga: Quando você realiza vendas de recargas de celular;
+Serasa: Quando você realiza consultas de pendências financeiras através da maquininha
+
+## Split de Pagamento
+O que é o Split Getnet?
+O Split Getnet é a divisão de uma venda para um ou mais participantes, respeitando as regras de comissão e repasse criadas pelo estabelecimento (administrador) no Portal.
+Quais os benefícios de contratar o Split Getnet?
+Cada participante recebe os valores direto na conta corrente
+Automatização da gestão financeira
+Customização de comissão por parceiro,
+Aplicativo exclusivo com modelo de gorjeta e comissão.
+Quais as formas de pagamento que estão disponíveis?
+São aceitos cartões crédito e débito. Não é aceito voucher (Vale refeição e vale alimentação).
+Os pagamentos dos valores para o estabelecimento e os parceiros pode serem feitos para qualquer banco?
+Liquidamos para todos os bancos homologados nas 5 principais bandeiras: Visa, Mastercard, Elo, Hiper e Amex.
+
+## Superdigital
+Como funciona a Superdigital?
+Compre sua Getnet e receba o valor das suas vendas direto na Superdigital, uma conta digital grátis! A Superdigital é igual a um banco, só que mais prática. Sem precisar de uma conta bancária, você compra com o cartão pré-pago Internacional Mastercard® e saca nos caixas da Rede Banco24Horas, recebe e transfere dinheiro pra qualquer banco, paga suas contas direto pelo aplicativo e compra em sites e aplicativos com segurança com o cartão virtual.
+
+## Taxas
+Já sou cliente, posso alterar as taxas das minhas máquinas Getnet?
+Sim, você pode solicitar a alteração das taxas nos canais da Getnet:
+Aplicativo da Getnet;
+– para contratação de máquina adicional (aluguel ou compra);
+Central de Relacionamento Getnet, por meio do telefone 4002-4000 e realizar a solicitação.
+Qual a taxa para Antecipação Automática?
+A Antecipação Automática é uma condição para obtenção da isenção em clientes que optam pelo plano de recebimento ‘Receba Conforme suas Vendas’. Por tratar-se de um processo de aprovação de crédito, a Getnet reserva-se o direito de avaliar individualmente cada contrato na concessão (ou não) do produto Antecipação Automática.
+Comprei/Aluguei uma Getnet, onde vejo as taxas do crédito parcelado?
+Informações de taxas
+para venda no débito e crédito
+Para maior transparência disponibilizamos todas as taxas cobradas em suas transações de vendas.
+Plano de recebimento:
+2 dias úteis*
+Receba conforme
+suas vendas
+Débito:
+1,89%
+1,95%
+Crédito à vista:
+3,99%
+3,09%
+Venda parcelada:
+1,98%
+6,40%
+Taxa adicional por mês**:
+2,73%
+
+## Simulação das taxas em uma venda de R$ 100,00
+Receber em 2 dias
+Quantidade
+de Parcelas
+Taxa
+Padrão
+Vlr Liq
+Receber
+Total***
+Débito
+1,89%*
+R$ 98,00
+R$ 98,05
+3,99%*
+R$ 96,91
+5,99%
+R$ 94,01
+R$ 93,60
+7,33%
+R$ 92,67
+8,67%
+R$ 91,33
+10,01%
+R$ 89,99
+11,35%
+R$ 88,65
+12,68%
+R$ 87,32
+14,02%
+R$ 85,98
+15,36%
+R$ 84,64
+16,70%
+R$ 83,30
+18,04%
+R$ 81,96
+19,37%
+R$ 80,63
+* Taxas válidas para novos clientes Pessoa Física, MEI (Micro Empreendedor Individual) e Pessoa Jurídica que faturar até R$ 3 milhões por ano.
+** Taxa adicional 2,73% por parcela.
+*** Não inclui taxa de Antecipação de vendas, se contratada.
+Você pode consultar as taxas do crédito parcelado também no Aplicativo Getnet e no Portal do Cliente Getnet.
+Aplicativo Getnet (disponível iOS e Android): é possível conferir informações sobre taxas e demais produtos contratados.
+Portal do Cliente Getnet: opção “Credenciamento”, “Impressão do contrato” ou opção “Produtos contratados e taxas”.
+
+## TEF - Captura PINPad
+Como faço para contratar um TEF?
+Na página Soluções TEF, você deve clicar em CONTRATAR, preencher seus dados, e entraremos em contato para dar andamento na negociação.
+O que faz o conciliador da Auttar?
+Permite gerenciar múltiplos estabelecimentos, acessar relatórios gerenciais, verificar os movimentos processados, checar as divergências nos pagamentos (taxas, valores e datas de vencimento) e ainda ter uma visão dos recebimentos futuros.
+O sistema de TEF não está funcionando, o que devo fazer?
+Você pode entrar em contato com o suporte técnico em qualquer dia e horário pelo telefone 4003-5025.
+Posso consultar o status de uma transação?
+Sim, pelo portal Auttar, nele você poderá ver o movimento de vendas e movimento financeiro e ainda será possível tratar pendências.
+
+## Venda com cartão de crédito pré-pago
+O que é uma venda com Cartão de Crédito Pré-Pago?
+Uma venda com a classificação Crédito Pré-pago, é uma transação onde o comprador precisa previamente carregar o cartão com a quantidade de dinheiro que ele deseja gastar. Como o dinheiro já está disponível no cartão, a transação é processada imediatamente e sem a necessidade de aprovação de crédito, oferecendo mais segurança para os estabelecimentos comerciais.
+Como vou receber as minhas vendas pagas por um Cartão de Crédito Pré-Pago?
+Assim como ocorre com cartão de débito e crédito, as suas vendas são direcionadas para o seu domicílio bancário cadastrado com recebimento em até 1 dia útil para vendas no débito e até 2 dias úteis para crédito.
+Mas lembre-se, o seu cliente precisa ter recarregado o dinheiro no cartão para utilização. Por exemplo, tudo que o seu cliente for comprar ou pagar para você, consome o valor que ele já possui no cartão de forma imediata e o recebimento em sua conta do valor ocorrerá conforme informado acima.
+Quais as modalidades do Cartão Pré-Pago?
+Cartão Pré-Pago Nacional:
+Usado apenas dentro do Brasil, com a moeda real, e o recebimento das vendas pode ser no crédito ou débito, na função débito o valor é contabilizado em conta em até 1 dia útil e no crédito em até 2 dias úteis.
+Cartão Pré-Pago Internacional:
+Disponibilizado em todos os países em que a bandeira do cartão é aceita, como moedas estrangeiras.
+Onde acompanho as vendas feitas com Cartão Pré-Pago?
+Para consultar o extrato das suas vendas, acesse o Aplicativo Getnet Brasil ou Portal Minha Conta.
+
+## Não é cliente?
+Adquira nossos produtos e impulsione suas vendas​​
+whatsApp
+Tenha suporte:
+Por telefone
+Ligue 4002-4000
+Por WhatsApp
+Prático e rápido.
+Nossas ofertas imperdíveis te aguardam:
+selecione uma opção e acesse agora!
+Já sou cliente!
+Ainda não sou cliente

@@ -1,0 +1,30 @@
+services:
+  api:
+    build: .
+    image: getnet-agents:latest
+    ports:
+      - "8080:8080"
+    env_file:
+      - path: .env.example
+        required: true
+      - path: .env
+        required: false
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: /run/secrets/sa-key
+      CHROMA_DIR: /app/data/chroma
+    secrets:
+      - source: sa-key
+        target: sa-key
+        uid: "1000"
+        gid: "1000"
+        mode: 0444
+    volumes:
+      - chroma-index:/app/data/chroma
+    restart: unless-stopped
+
+secrets:
+  sa-key:
+    file: ./.secrets/sa-key.json
+
+volumes:
+  chroma-index:

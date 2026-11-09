@@ -1,0 +1,109 @@
+url: https://site.getnet.com.br/duvidas/get-smart/
+title: Arquivos Get Smart - Getnet
+
+## Já é cliente?
+Nos informe CPF ou CNPJ
+Para melhor direcionamento, informe o documento solicitado.
+VISITE
+O SITE
+Minha Conta
+Get Ajuda
+Fale Conosco
+Fale no WhatsApp
+Capitais e Regiões Metropolitanas
+4002-4000
+4003-4000
+Open
+
+## Como podemos te ajudar?
+Já sou cliente, e procuro um novo produto
+Já sou cliente, e procuro apenas produtos digitais
+Peguei a maquininha de outra pessoa, e preciso ativá-la em meu nome
+Não sou cliente, e procuro produtos digitais
+AVANÇAR
+
+## Get Smart
+Como realizo o cancelamento de uma venda da Get Smart realizada em dias anteriores?
+Somente entrando em contato com nossa central de atendimento no telefone 4003-4000.
+Fiz uma venda duplicada na minha Get Smart, em menos de 5 minutos, preciso realizar o estorno?
+Se ocorrerem duas (02) vendas idênticas no mesmo estabelecimento e no período de 5 minutos (mesmo cartão, bandeira, valor), a segunda será cancelada automaticamente. Caso seja necessário repetir uma transação, deve-se aguardar 5 minutos ou informar um valor diferente.
+Como proceder para que minha bateria da Get Smart se mantenha com uma boa duração?
+Deixe a bateria carregando sempre que possível e, de preferência, por pelo menos 3 horas seguidas. Não espere a bateria descarregar completamente para recarregá-la. O ideal é carregar a bateria quando o nível estiver em 20%.
+A Get Smart aceita pagamento com auxilio emergencial?
+Sim, basta fazer o processo de pagamento com
+QR Code
+, selecionando a opção débito.
+Como realizar pagamento por QR CODE?
+É muito simples, segue abaixo passo a passo:
+1) Clique no menu pagamento.
+2) Digite o valor da compra.
+3) Selecione o tipo de pagamento (credito, debito, voucher)
+4) Aparecerá na tela uma mensagem dizendo para inserir ou aproximar o cartão. No centro desta tela terá o botão “pagar com QR Code” , clique tele na tela touch screen.
+5) Será gerado um QR Code na tela, basta utilizar o smartphone para fazer a leitura do QR Code gerado.
+6) Após processo da transação, aparecerá uma mensagem de sucesso e a opção de impressão de comprovante de transação.
+Como realizar pagamento por aproximação?
+É muito simples, lembrando que o cartão deve ter esta funcionalidade de NFC, pode se validar pelo símbolo estar impresso no cartão.
+Clique no menu pagamento.
+Digite o valor da compra.
+Selecione o tipo de pagamento (credito, debito, voucher)
+Aparecerá na tela uma mensagem dizendo para inserir ou aproximar o cartão.
+Aproxime o cartão na parte superior central do terminal, em uma distância inferior a 1cm.
+Após processo da transação, aparecerá uma mensagem de sucesso e a opção de impressão de comprovante de transação.
+Quais tipos de pagamentos são aceitos na Get Smart?
+Você pode efetuar pagamentos crédito, débito, voucher, crediário, split de pagamento, QR Code e NFC (aproximação). Os sistemas de gestão permitem também contabilizar os pagamentos em dinheiro.
+Quais bandeiras são aceitas na Get Smart?
+Pessoa Física: Mastercard | Visa | American Express | Elo | Hipercard | Hiper |
+Pessoa Jurídica: Alelo | Pluxee | Ticket | VR | Ben
+A Get Smart
+não
+trabalha com recarga.
+Quais os diferenciais de uma Get Smart?
+Com um sistema de gestão integrado ele permite que não tenha a necessidade de deslocamento para consultar um estoque, o mesmo pode ser consultado diretamente na máquina.
+Ele permite um balcão mais limpo, onde não é necessário ter um computador e uma impressora fiscal, ele faz ambas funções.
+Ele permite mais rapidez no atendimento diminuindo o tempo de espera do cliente, você pode fazer o pedido, fechar a conta e emitir o cupom fiscal tudo diretamente no terminal.
+Com ele você tem uma conciliação com pagamentos em todas modalidades, crédito, debito, crediário, QR Code ou dinheiro. Os sistemas de gestão homologados possuem conciliação completa.
+Qual tipo de negócio mais indicado para ter uma Get Smart?
+A Get Smart pode ser utilizado em qualquer tipo de negócio. Ele foi feito para atender todos tipos e tamanhos de estabelecimentos. Temos uma loja de aplicativos com mais de 100 Aplicativos homologados em diversos ramos, na Getstore o cliente pode encontrar opções para diversos perfis de estabelecimentos, levando eficiência e agilidade para seu negócio.
+O que é a Get Smart?
+A Get Smart é uma máquina de cartões inteligente. Com ela, seu dia a dia fica mais simples, fácil e muito mais digital. Você pode controlar o estoque, fazer pedidos, fechar conta, embarcar cardápio, emitir nota fiscal, tudo diretamente na máquina. A Get Smart permite que você integre o terminal com o sistema de seu estabelecimento e assim terá todos os aparelhos que seu negócio precisa em um único lugar.
+Após receber a máquina, como eu começo a usar o Aplicativo que escolhi?
+Você deve ir até a nossa loja de Aplicativos – Getstore,
+Selecione a aba ‘Todos os Aplicativos’,
+Procure o Aplicativo que você escolheu e faça o download,
+Ao finalizar o Download, abra o Aplicativo e insira o Login e Senha que você recebeu da empresa responsável pelo Aplicativo.
+Qualquer dúvida sobre o login e senha, ou sobre o uso do Aplicativo deve ser tirada diretamente com empresa desenvolvedora.
+Como é feita a cobrança das taxas e mensalidades da Get Smart?
+Assim como ocorre nos nossos celulares, as mensalidades dos Aplicativos são cobradas pelas empresas desenvolvedoras – a negociação é realizada diretamente com eles.
+Para a Getnet são pagos os valores de Aluguel e as Taxas Administrativas.
+Como pedir uma Get Smart?
+Você pode pedir pelo site através do
+https://site.getnet.com.br/maquininha/get-smart/
+, por meio do nosso Call Center, no número:
+4020-4011
+ou solicite com seu gerente Santander.
+As vendas que eu fizer na Get Smart estarão no conciliador que eu já uso?
+Não. Os conciliadores em geral não fazem a conciliação de transações feitas na Get Smart. Mas você pode acompanhar suas vendas no Aplicativo Getnet Brasil ou no nosso
+Portal Minha Conta
+. Além disso, a maioria dos Aplicativos da Get Smart mostra um acompanhamento de vendas.
+Eu já uso uma automação no TEF. Ela estará disponível na Get Smart?
+Não necessariamente. Você precisa validar no site da Getnet e caso não esteja homologada, indicar que se cadastre no
+portal do desenvolvedor
+e faça as integrações necessárias.
+A Get Smart imprime a Nota Fiscal Eletrônica?
+Depende do Aplicativo que você escolheu. A maioria dos Aplicativos disponíveis na Get Smart emitem NF-e, mas é importante validar com o Aplicativo.
+Qual a diferença entre Get Smart e TEF móvel?
+Na Get Smart todas as suas vendas são processadas pela Getnet. Além disso, a Get Smart, por ser um equipamento Android, permite mais operações realizadas diretamente no equipamento, como colocar o cardápio, controlar o estoque, trocar mensagens entre cozinha e salão.
+Voltar
+
+## Não é cliente?
+Adquira nossos produtos e impulsione suas vendas​​
+whatsApp
+Tenha suporte:
+Por telefone
+Ligue 4002-4000
+Por WhatsApp
+Prático e rápido.
+Nossas ofertas imperdíveis te aguardam:
+selecione uma opção e acesse agora!
+Já sou cliente!
+Ainda não sou cliente

@@ -1,0 +1,42 @@
+url: https://www.getnet.net/en/our-solutions/omnichannel
+title: Getnet - Omnichannel
+
+The
+tecnology
+behind our solution
+A streamlined, secure and scalable solution that ensures real-time payments processes.
+Accelerate
+your business
+success
+Getnet SEP provides a flexible solution that can be adapted to the specific needs of each client, centralising the complexities and regulations of each market, reducing costs and streamlining times.
+Connect
+Once, Accept
+Payments Everywhere
+A Single Entry Point to Latin America to boost ecommerce businesses. A single solution for merchants for faster and cheaper expansion.
+eCommerce
+revolution
+in Latin America
+Access Getnet’s payment and acquiring services in four countries (Brazil, Mexico, Argentina and Chile) with one single integration.
+One integration,
+regional coverage
+Whether you are creating a new web store or planning improvements for and existing one, the Digital Platform API can be used to handle various payment functionalities for online orders.
+
+## Local acquiring
+In each of the countries in which we operate.
+
+## Gateway services
+Access to our core gateway services to our digital payment solutions portfolio to create competitive advantage.
+
+## A wide range of value added services
+3D secure, Antifraud, network Tokenisation, prepayment.
+
+## A regional connection
+For the needs of each market and the strength of 2nd largest acquirer in Latin America
+€2,6 bn
+Monthly transactional volume
+€171 mn
+Monthly transactions
+107
+Transactions per second (TPS)
+1,3 secs
+Transaction latency

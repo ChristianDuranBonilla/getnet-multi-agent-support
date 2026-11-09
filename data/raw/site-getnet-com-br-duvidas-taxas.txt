@@ -1,0 +1,149 @@
+url: https://site.getnet.com.br/duvidas/taxas/
+title: Arquivos Taxas - Getnet
+
+## Já é cliente?
+Nos informe CPF ou CNPJ
+Para melhor direcionamento, informe o documento solicitado.
+VISITE
+O SITE
+Minha Conta
+Get Ajuda
+Fale Conosco
+Fale no WhatsApp
+Capitais e Regiões Metropolitanas
+4002-4000
+4003-4000
+Open
+
+## Como podemos te ajudar?
+Já sou cliente, e procuro um novo produto
+Já sou cliente, e procuro apenas produtos digitais
+Peguei a maquininha de outra pessoa, e preciso ativá-la em meu nome
+Não sou cliente, e procuro produtos digitais
+AVANÇAR
+
+## Taxas
+Quais são as taxas de adquirência da Loja Virtual?
+A Loja Virtual conta com plano único de taxas
+"Receba suas vendas conforme parcelas"
+Crédito à vista
+: 2,80% + 0,90 por transação do (Antifraude)
+Recebimento em 31 dias.
+Crédito 2x a 6x
+: 3% + 0,90 por transação (Antifraude)
+Recebimento em 31 dias + 30 dias por parcela.
+Crédito 7x a 12x
+: 3,15% + 0,90 por transação (Antifraude)
+Já sou cliente, posso alterar as taxas das minhas máquinas Getnet?
+Sim, você pode solicitar a alteração das taxas nos canais da Getnet:
+Aplicativo da Getnet;
+Portal do Cliente
+– para contratação de máquina adicional (aluguel ou compra);
+Central de Relacionamento Getnet, por meio do telefone 4002-4000 e realizar a solicitação.
+Qual a taxa para Antecipação Automática?
+A Antecipação Automática é uma condição para obtenção da isenção em clientes que optam pelo plano de recebimento ‘Receba Conforme suas Vendas’. Por tratar-se de um processo de aprovação de crédito, a Getnet reserva-se o direito de avaliar individualmente cada contrato na concessão (ou não) do produto Antecipação Automática.
+Comprei/Aluguei uma Getnet, onde vejo as taxas do crédito parcelado?
+Informações de taxas
+para venda no débito e crédito
+Para maior transparência disponibilizamos todas as taxas cobradas em suas transações de vendas.
+Plano de recebimento:
+2 dias úteis*
+Receba conforme
+suas vendas
+Débito:
+1,89%
+1,95%
+Crédito à vista:
+3,99%
+3,09%
+Venda parcelada:
+1,98%
+6,40%
+Taxa adicional por mês**:
+2,73%
+
+## Simulação das taxas em uma venda de R$ 100,00
+Receber em 2 dias
+Quantidade
+de Parcelas
+Taxa
+Padrão
+Vlr Liq
+Receber
+Total***
+Débito
+1,89%*
+R$ 98,00
+R$ 98,05
+3,99%*
+R$ 96,91
+5,99%
+R$ 94,01
+R$ 93,60
+7,33%
+R$ 92,67
+8,67%
+R$ 91,33
+10,01%
+R$ 89,99
+11,35%
+R$ 88,65
+12,68%
+R$ 87,32
+14,02%
+R$ 85,98
+15,36%
+R$ 84,64
+16,70%
+R$ 83,30
+18,04%
+R$ 81,96
+19,37%
+R$ 80,63
+* Taxas válidas para novos clientes Pessoa Física, MEI (Micro Empreendedor Individual) e Pessoa Jurídica que faturar até R$ 3 milhões por ano.
+** Taxa adicional 2,73% por parcela.
+*** Não inclui taxa de Antecipação de vendas, se contratada.
+Você pode consultar as taxas do crédito parcelado também no Aplicativo Getnet e no Portal do Cliente Getnet.
+Aplicativo Getnet (disponível iOS e Android): é possível conferir informações sobre taxas e demais produtos contratados.
+Portal do Cliente Getnet: opção “Credenciamento”, “Impressão do contrato” ou opção “Produtos contratados e taxas”.
+As taxas de adquirência da loja virtual são negociáveis?
+As taxas são únicas e não podem ser negociadas.
+Taxas:
+2,80% credito à vista
+3,00% parcelado 2x a 6x
+3,15% parcelado 7x a 12x
++ R$ 0,40 por transação ref. Antifraude
+Mesmo no plano Grátis, para que o cliente realize transações, ele deve ser cadastrado na Getnet e as chaves de autenticação devem estar configuradas no painel de controle da sua loja.
+Qual é a taxa cobrada para os cartões de benefícios e regionais?
+As taxas dos cartões de benefícios e regionais são negociados diretamente com as bandeiras. Para isso, basta você selecionar neste
+link
+a bandeira desejada que apresentaremos todos os telefones disponíveis para você entrar em contato.
+As taxas de loja virtual podem ser negociadas?
+Não, as taxas de loja virtual são fixas, e não podem ser negociadas.
+Como eu contrato o Crediário e qual a taxa?
+A habilitação pode ser realizada através do aplicativo Getnet (Android e iOS) ou através da central. É possível consultar se o Crediário está habilitado para o seu Estabelecimento no Aplicativo da Getnet (acesse em: Meu negócio > Taxas e modalidades > Cartões) ou no
+. Você também pode contatar a Central de Atendimento para verificar se o seu Estabelecimento está habilitado para operar com a modalidade. Caso a modalidade esteja habilitada, mas a opção Crediário ainda não esteja disponível em sua máquina, é importante realizar uma transação de adquirência (bandeiras Mastercard, Visa, Elo e Amex) ou proceder com a inicialização do terminal (Suporte > Bandeiras > Funções Técnicas > Inicialização). A taxa de desconto do Crediário é parte integrante do seu contrato de Adesão ao Sistema Getnet e pode ser consultada no Portal do Cliente e/ou no Aplicativo Getnet Brasil.
+O plano de mensalidade da loja virtual é descontado dos meus recebíveis?
+Não.
+O pagamento da mensalidade do plano escolhido deve ocorre junto com a contratação do mesmo no
+painel administrativo da Loja Virtual.
+É descontado dos recebíveis apenas a cobrança do antifraude e o MDR (taxa) da transação.
+Como é feita a cobrança das taxas e mensalidades da Get Smart?
+Assim como ocorre nos nossos celulares, as mensalidades dos Aplicativos são cobradas pelas empresas desenvolvedoras – a negociação é realizada diretamente com eles.
+Para a Getnet são pagos os valores de Aluguel e as Taxas Administrativas.
+Há alguma taxa extra para usar o Aplicativo Getnet Brasil?
+Não. Você usa o Aplicativo Getnet Brasil sem cobrança de taxas adicionais.
+Voltar
+
+## Não é cliente?
+Adquira nossos produtos e impulsione suas vendas​​
+whatsApp
+Tenha suporte:
+Por telefone
+Ligue 4002-4000
+Por WhatsApp
+Prático e rápido.
+Nossas ofertas imperdíveis te aguardam:
+selecione uma opção e acesse agora!
+Já sou cliente!
+Ainda não sou cliente

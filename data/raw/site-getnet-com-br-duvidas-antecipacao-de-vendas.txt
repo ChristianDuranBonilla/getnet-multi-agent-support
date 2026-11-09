@@ -1,0 +1,116 @@
+url: https://site.getnet.com.br/duvidas/antecipacao-de-vendas/
+title: Arquivos antecipação de vendas - Getnet
+
+## Já é cliente?
+Nos informe CPF ou CNPJ
+Para melhor direcionamento, informe o documento solicitado.
+VISITE
+O SITE
+Minha Conta
+Get Ajuda
+Fale Conosco
+Fale no WhatsApp
+Capitais e Regiões Metropolitanas
+4002-4000
+4003-4000
+Open
+
+## Como podemos te ajudar?
+Já sou cliente, e procuro um novo produto
+Já sou cliente, e procuro apenas produtos digitais
+Peguei a maquininha de outra pessoa, e preciso ativá-la em meu nome
+Não sou cliente, e procuro produtos digitais
+AVANÇAR
+
+## antecipação de vendas
+O que é antecipação de vendas?
+O cliente pode receber antecipadamente os valores das vendas realizadas na função de crédito, sejam à vista ou parceladas. Ou seja, o cliente, não precisará aguardar até o prazo de compensação para receber em sua conta o valor das vendas realizadas na maquininha.
+O que é gravame e como ele funciona?
+Gravame é o nome do novo mecanismo que irá substituir a Trava de Domicílio Bancário.
+Na prática, o funcionamento é muito semelhante ao que já temos hoje: Ao realizar uma negociação/contrato de crédito com uma Instituição Financeira (banco) utilizando os seus recebíveis
+o seu fluxo/agenda de recebíveis será direcionado ao banco para garantir a operação feita.
+O que acontece com a trava que tenho atualmente?
+A trava será transformada em Gravame ou Cessão Externa de acordo com a regra de cada instituição.
+O que é Cessão?
+A Cessão é um tipo de operação que é feita no mercado, onde a titularidade dos recebíveis é transferida
+/cedida
+para uma outra pessoa/comprador.
+Qual é a diferença entre Gravame e Cessão?
+Nos contratos de Gravame, a titularidade do recebível não é alterada. Dessa forma, os seus recebíveis serão direcionados para uma conta em seu nome.
+Para a Cessão, onde a titularidade do recebível é cedida/vendida
+/transferida
+para um terceiro, os recebíveis serão direcionados para uma conta que pode ou não ser de sua titularidade.
+O que é gravame e o que ele muda na minha forma de receber dinheiro?
+Gravame é a garantia que você dá para a
+Getnet
+de pagamento do seu empréstimo. Isso significa que você passará a receber todas as vendas que realizar na
+e em outras adquirentes em sua Get
+Conta
+, no limite do saldo devedor do empréstimo. A garantia te ajuda a organizar seu pagamento de empréstimo e verificar em uma única conta o extrato de todos os valores de suas vendas e descontos realizados.
+Qual é a diferença entre Gravame e Trava de Domicílio Bancário?
+Na Trava de Domicílio Bancário, você era impedido de alterar o domicílio bancário, pois a garantia total precisava ser liquidada em uma conta escolhida pelo próprio banco onde você fez a negociação.
+No Gravame, os recebíveis ainda deverão ser liquidados em uma conta escolhida pelo banco, mas você terá a liberdade de alterar o seu domicílio para receber a parte dos recebíveis que não foi negociada.
+Um exemplo prático:
+Vamos supor que você negociou 25% dos recebíveis de uma bandeira em um contrato de gravame. Isto quer dizer que:
+1) 25% dos valores referentes a essa bandeira serão direcionados para o domicílio escolhido pelo próprio banco, para garantir a operação feita.
+2) 75% dos valores referentes a essa bandeira serão direcionados ao domicílio de sua escolha. Este domicílio poderá ser alterado a qualquer momento.
+No antigo modelo da Trava, não seria possível realizar esta divisão e, como consequência, 100% dos seus recebíveis dessa bandeira seriam destinados ao banco, sem a possibilidade de alterar o domicílio bancário até que a operação fosse liquidada
+O que é a RESOLUÇÃO DO BANCO CENTRAL 4734/ CIRC 3952?
+A partir do dia 7 de junho de 2021, entram em vigor a Resolução 4.734 e a Circular 3.952 publicadas pelo Banco Central. Elas estabelecem condições e procedimentos para que os estabelecimentos comerciais possam usar os seus recebíveis de cartão para realizar negociações/operações de crédito com instituições autorizadas a atender este tipo de transação.
+A resolução também prevê a necessidade da
+Credenciadora registrar
+em uma Registradora os seus recebíveis, para que “se transformem” num título financeiro e estes sejam negociados.
+O que mudou na Antecipação?
+Agora, com as novas regras, para a Getnet ter acesso a informação de agenda disponível para negociação,
+você precisa autorizar/consentir que a Credenciadora (Getnet) possa consultar a sua agenda na Registradora.
+A Registradora confirmará a autorização/consentimento e confirmará a consulta e operação.
+Você não terá nenhuma cobrança a mais, somente as que já existem, como: aluguel, MDR, taxa de antecipação
+É possível antecipar vendas das bandeiras que habilitei?
+Não é possível antecipar vendas destas bandeiras através da Getnet, somente com a própria Operadora.
+Qual o prazo para os valores serem lançados em conta?
+Uma agenda fica disponível para antecipação entre D+1 (um dia útil após a data da venda), e até D-3 (três dias úteis antes da liquidação da agenda, ou seja, antes de o valor ser lançado na conta do Cliente).
+Exemplos:
+D+1 - Venda realizada em 04/03, estará disponível para antecipação a partir do dia 05/03 para antecipar.
+D-3 - Como a data de lançamento do crédito na conta do cliente será 03/04, a venda estará disponível para antecipação até o dia 31/03.
+Como posso ver lançamentos futuros sendo que tenho antecipação automática?
+É possível identificar lançamentos futuros no
+Portal Santander
+, através das opções:
+- Consultas;
+- Lançamentos Futuros;
+- Flegar - Todos os Movimentos.
+Quando irei receber o valor das minhas vendas?
+Aqui na Getnet, é você que escolhe quando receber suas vendas! Todos os valores de vendas feitas no débito estarão disponíveis para você no dia seguinte, e para receber as vendas a crédito você pode escolher entre receber tudo em 2 dias, 30 dias ou mês a mês conforme o parcelamento realizado no cartão do seu cliente.
+Quais canais posso utilizar para antecipar as vendas?
+Público:
+Clientes Correntistas Santander.
+Rede de Agências:
+o cliente pode antecipar os recebíveis com o gerente de sua conta.
+Internet Banking:
+o cliente pode antecipar os recebíveis através do Internet Banking. Empresarial: desde que tenha este canal habilitado.
+Antecipação Automática
+Antecipação Eventual:
+através da Central de Atendimento Getnet.
+Antecipação pelo POS:
+o próprio estabelecimento deve realizar o procedimento através do equipamento Getnet.
+Não Correntistas Santander.
+Como saber quais vendas foram antecipadas?
+No dia seguinte à efetivação da antecipação, é possível verificar as vendas Mastercard/Visa antecipadas no
+- Extratos por período;
+- Antecipação por período.
+Em que horários posso consultar ou realizar a antecipação de vendas?
+De segunda a sexta-feira, das 9h às 21h, exceto em feriados (horário para correntistas Santander). Caso não seja correntista Santander, veja o quadro abaixo para verificação do horário de realização/consulta da antecipação de vendas:
+Voltar
+
+## Não é cliente?
+Adquira nossos produtos e impulsione suas vendas​​
+whatsApp
+Tenha suporte:
+Por telefone
+Ligue 4002-4000
+Por WhatsApp
+Prático e rápido.
+Nossas ofertas imperdíveis te aguardam:
+selecione uma opção e acesse agora!
+Já sou cliente!
+Ainda não sou cliente
