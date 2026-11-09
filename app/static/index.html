@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getnet Agents</title>
+<style>
+  :root { --bg: #f5f6f8; --card: #fff; --fg: #1d2330; --muted: #6b7280; --line: #e2e5ea; --accent: #c8102e; --ok: #0b7a4b; --warn: #a15c00; --mono: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, -apple-system, Segoe UI, sans-serif; background: var(--bg); color: var(--fg); }
+  header { padding: 14px 20px; background: var(--card); border-bottom: 1px solid var(--line); display: flex; gap: 16px; align-items: center; }
+  header h1 { font-size: 16px; margin: 0; }
+  header select { font: inherit; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; }
+  main { display: grid; grid-template-columns: 1fr 360px; gap: 16px; padding: 16px 20px; max-width: 1200px; margin: 0 auto; }
+  @media (max-width: 800px) { main { grid-template-columns: 1fr; } }
+  .chat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; display: flex; flex-direction: column; min-height: 70vh; }
+  .log { flex: 1; overflow: auto; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+  .msg { max-width: 80%; padding: 10px 12px; border-radius: 10px; white-space: pre-wrap; }
+  .user { align-self: flex-end; background: #eef1f6; }
+  .bot { align-self: flex-start; background: #fbf3f4; border: 1px solid #f1d5d9; }
+  .bot .tag { display: inline-block; font-size: 11px; font-family: var(--mono); padding: 1px 6px; border-radius: 4px; background: var(--accent); color: #fff; margin-bottom: 6px; }
+  form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--line); }
+  input[type=text] { flex: 1; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; }
+  button { font: inherit; padding: 10px 16px; border: 0; border-radius: 8px; background: var(--accent); color: #fff; cursor: pointer; }
+  button:disabled { opacity: .5; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; font-size: 13px; }
+  .panel h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
+  .kv { display: grid; grid-template-columns: 110px 1fr; gap: 4px 8px; margin-bottom: 12px; }
+  .kv b { color: var(--muted); font-weight: 500; }
+  .trace { font-family: var(--mono); font-size: 12px; }
+  .trace div { display: flex; justify-content: space-between; border-bottom: 1px dashed var(--line); padding: 2px 0; }
+  .handoff { color: var(--warn); font-weight: 600; }
+  .fine { color: var(--ok); font-weight: 600; }
+  .examples { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 12px 10px; }
+  .examples button { background: #eef1f6; color: var(--fg); font-size: 12px; padding: 4px 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Getnet multi-agent assistant</h1>
+  <label>user_id <select id="user">
+    <option value="cliente1988">cliente1988 (Get Smart, active)</option>
+    <option value="cliente2001">cliente2001 (Get Clássica, terminal offline)</option>
+    <option value="cliente3050">cliente3050 (Get Mini, account under review)</option>
+    <option value="cliente0000">cliente0000 (unknown user)</option>
+  </select></label>
+</header>
+<main>
+  <section class="chat">
+    <div class="log" id="log"></div>
+    <div class="examples" id="examples"></div>
+    <form id="form">
+      <input type="text" id="message" placeholder="Ask about products, deposits or your card machine" autocomplete="off" required>
+      <button id="send" type="submit">Send</button>
+    </form>
+  </section>
+  <aside class="panel">
+    <h2>Last request</h2>
+    <div class="kv" id="meta"><b>agent</b><span>–</span><b>intent</b><span>–</span><b>guardrail</b><span>–</span><b>confidence</b><span>–</span><b>handoff</b><span>–</span><b>ticket</b><span>–</span><b>latency</b><span>–</span></div>
+    <h2>Sources</h2>
+    <div id="sources" class="trace">–</div>
+    <h2 style="margin-top:12px">Trace</h2>
+    <div id="trace" class="trace">–</div>
+  </aside>
+</main>
+<script>
+  const examples = [
+    "What's the difference between the Get Clássica and the Get Smart?",
+    "When will the money from yesterday's sales be deposited?",
+    "My card machine won't connect to the internet, what should I do?",
+    "What's the weather forecast in Porto Alegre tomorrow?",
+    "How does receivables advance (antecipação) work with Getnet?",
+  ];
+  const log = document.getElementById("log");
+  const form = document.getElementById("form");
+  const input = document.getElementById("message");
+  const send = document.getElementById("send");
+  const ex = document.getElementById("examples");
+  examples.forEach((t) => { const b = document.createElement("button"); b.type = "button"; b.textContent = t; b.onclick = () => { input.value = t; input.focus(); }; ex.appendChild(b); });
+
+  function add(cls, text, tag) {
+    const d = document.createElement("div"); d.className = "msg " + cls;
+    if (tag) { const s = document.createElement("span"); s.className = "tag"; s.textContent = tag; d.appendChild(s); d.appendChild(document.createElement("br")); }
+    d.appendChild(document.createTextNode(text)); log.appendChild(d); log.scrollTop = log.scrollHeight;
+  }
+  function render(r) {
+    const m = document.getElementById("meta");
+    const cells = m.querySelectorAll("span");
+    cells[0].textContent = r.agent ?? "guardrail";
+    cells[1].textContent = r.intent ?? "–";
+    cells[2].textContent = r.guardrail ?? "–";
+    cells[3].textContent = r.confidence != null ? r.confidence.toFixed(2) : "–";
+    cells[4].innerHTML = r.handoff ? '<span class="handoff">yes</span>' : '<span class="fine">no</span>';
+    cells[5].textContent = r.ticket_id ?? "–";
+    cells[6].textContent = r.latency_ms != null ? r.latency_ms + " ms" : "–";
+    document.getElementById("sources").innerHTML = (r.sources || []).map((s) => `<div><span>${s.type}</span><span>${s.ref}</span></div>`).join("") || "–";
+    document.getElementById("trace").innerHTML = (r.trace || []).map((t) => `<div><span>${t.step}. ${t.node}</span><span>${t.ms} ms</span></div>`).join("") || "–";
+  }
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const message = input.value.trim(); if (!message) return;
+    const user_id = document.getElementById("user").value;
+    add("user", message); input.value = ""; send.disabled = true;
+    try {
+      const res = await fetch("/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ message, user_id }) });
+      const r = await res.json();
+      if (!res.ok) { add("bot", "Error " + res.status + ": " + (r.detail?.message || JSON.stringify(r.detail || r))); return; }
+      add("bot", r.response, r.agent ?? "guardrail"); render(r);
+    } catch (err) { add("bot", "Request failed: " + err.message); }
+    finally { send.disabled = false; input.focus(); }
+  });
+</script>
+</body>
+</html>

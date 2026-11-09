@@ -1,0 +1,13 @@
+.venv/
+.git/
+.secrets/
+.env
+data/chroma/
+evals/last_run.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+tests/
+.DS_Store

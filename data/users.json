@@ -1,0 +1,35 @@
+{
+  "cliente1988": {
+    "name": "Mariana Souza",
+    "business": "Padaria Souza",
+    "plan": "Getnet Pro",
+    "terminal_model": "Get Smart",
+    "account_status": "active",
+    "bank_account_linked": true,
+    "settlement_schedule": "D+1 for debit and Pix, D+30 for credit (D+1 with prepayment enabled)",
+    "receivables_prepayment_enabled": false,
+    "preferred_language": "pt"
+  },
+  "cliente2001": {
+    "name": "Carlos Pereira",
+    "business": "Oficina Pereira",
+    "plan": "Getnet Start",
+    "terminal_model": "Get Clássica",
+    "account_status": "active",
+    "bank_account_linked": true,
+    "settlement_schedule": "D+1 for debit and Pix, D+30 for credit",
+    "receivables_prepayment_enabled": true,
+    "preferred_language": "pt"
+  },
+  "cliente3050": {
+    "name": "Ana Lima",
+    "business": "Studio Lima",
+    "plan": "Getnet Start",
+    "terminal_model": "Get Mini",
+    "account_status": "under_review",
+    "bank_account_linked": false,
+    "settlement_schedule": "paused while the account is under review",
+    "receivables_prepayment_enabled": false,
+    "preferred_language": "en"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "cliente1988": {
+    "terminal_id": "T-SMART-55120",
+    "model": "Get Smart",
+    "connectivity": "online",
+    "network": "4G",
+    "last_heartbeat_minutes_ago": 2,
+    "firmware": "3.14.2",
+    "recent_errors": []
+  },
+  "cliente2001": {
+    "terminal_id": "T-CLAS-21877",
+    "model": "Get Clássica",
+    "connectivity": "offline",
+    "network": "wifi",
+    "last_heartbeat_minutes_ago": 95,
+    "firmware": "2.8.0",
+    "recent_errors": [
+      {"code": "NET-02", "description": "Wi-Fi authentication failed", "minutes_ago": 95}
+    ]
+  },
+  "cliente3050": {
+    "terminal_id": "T-MINI-09341",
+    "model": "Get Mini",
+    "connectivity": "online",
+    "network": "bluetooth",
+    "last_heartbeat_minutes_ago": 10,
+    "firmware": "1.9.5",
+    "recent_errors": [
+      {"code": "TXN-51", "description": "Transaction declined: account under review", "minutes_ago": 12},
+      {"code": "TXN-51", "description": "Transaction declined: account under review", "minutes_ago": 40}
+    ]
+  }
+}

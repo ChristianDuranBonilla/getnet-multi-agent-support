@@ -1,0 +1,15 @@
+{
+  "_note": "days_ago is relative to the current date so that 'yesterday' scenarios stay valid. The repository converts it to ISO dates at read time.",
+  "cliente1988": [
+    {"sale_id": "S-77201", "days_ago": 1, "amount_brl": 450.00, "method": "credit", "installments": 1, "status": "pending", "expected_deposit_days_ago": -29},
+    {"sale_id": "S-77202", "days_ago": 1, "amount_brl": 89.90, "method": "pix", "installments": 1, "status": "deposited", "expected_deposit_days_ago": 0},
+    {"sale_id": "S-77190", "days_ago": 3, "amount_brl": 120.00, "method": "debit", "installments": 1, "status": "deposited", "expected_deposit_days_ago": 2}
+  ],
+  "cliente2001": [
+    {"sale_id": "S-80110", "days_ago": 1, "amount_brl": 1200.00, "method": "credit", "installments": 3, "status": "prepaid", "expected_deposit_days_ago": 0},
+    {"sale_id": "S-80101", "days_ago": 2, "amount_brl": 300.00, "method": "debit", "installments": 1, "status": "deposited", "expected_deposit_days_ago": 1}
+  ],
+  "cliente3050": [
+    {"sale_id": "S-91001", "days_ago": 1, "amount_brl": 640.00, "method": "credit", "installments": 2, "status": "on_hold", "expected_deposit_days_ago": null}
+  ]
+}
