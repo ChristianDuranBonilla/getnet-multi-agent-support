@@ -28,7 +28,9 @@
   .kv { display: grid; grid-template-columns: 110px 1fr; gap: 4px 8px; margin-bottom: 12px; }
   .kv b { color: var(--muted); font-weight: 500; }
   .trace { font-family: var(--mono); font-size: 12px; }
-  .trace div { display: flex; justify-content: space-between; border-bottom: 1px dashed var(--line); padding: 2px 0; }
+  .trace div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dashed var(--line); padding: 3px 0; }
+  .trace .k { color: var(--muted); flex: 0 0 auto; }
+  .trace .v { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: right; }
   .handoff { color: var(--warn); font-weight: 600; }
   .fine { color: var(--ok); font-weight: 600; }
   .examples { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 12px 10px; }
@@ -93,8 +95,9 @@
     cells[4].innerHTML = r.handoff ? '<span class="handoff">yes</span>' : '<span class="fine">no</span>';
     cells[5].textContent = r.ticket_id ?? "–";
     cells[6].textContent = r.latency_ms != null ? r.latency_ms + " ms" : "–";
-    document.getElementById("sources").innerHTML = (r.sources || []).map((s) => `<div><span>${s.type}</span><span>${s.ref}</span></div>`).join("") || "–";
-    document.getElementById("trace").innerHTML = (r.trace || []).map((t) => `<div><span>${t.step}. ${t.node}</span><span>${t.ms} ms</span></div>`).join("") || "–";
+    const label = (ref) => { try { const u = new URL(ref); return u.hostname.includes("vertexaisearch") ? "google search (grounding)" : u.hostname + u.pathname; } catch { return ref; } };
+    document.getElementById("sources").innerHTML = (r.sources || []).map((s) => `<div><span class="k">${s.type}</span><span class="v" title="${s.ref}">${label(s.ref)}</span></div>`).join("") || "–";
+    document.getElementById("trace").innerHTML = (r.trace || []).map((t) => `<div><span class="k">${t.step}. ${t.node}</span><span class="v">${t.ms} ms</span></div>`).join("") || "–";
   }
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
