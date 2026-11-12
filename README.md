@@ -2,6 +2,8 @@
 
 A containerized FastAPI service in which four cooperating agents, orchestrated with LangGraph on Gemini (Vertex AI), answer merchant questions about Getnet products, resolve account and card-machine issues from merchant data, and hand off to a human when they cannot resolve a request. Built for the AI Hardcore Engineer challenge following Spec-Driven Development: [`SPEC.md`](SPEC.md) was written first and is the source of truth; [`CLAUDE.md`](CLAUDE.md) holds the coding conventions.
 
+Demo video (9 min): https://youtu.be/vjVVIyTO0T8
+
 ## Contents
 
 - [Quick start](#quick-start)
