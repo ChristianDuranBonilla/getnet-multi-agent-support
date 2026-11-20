@@ -6,6 +6,6 @@ __pycache__/
 .env
 .secrets/
 data/chroma/
-evals/last_run.json
+data/state/
 .DS_Store
 *.egg-info/

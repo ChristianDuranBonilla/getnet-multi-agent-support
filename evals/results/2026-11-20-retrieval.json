@@ -1,0 +1,687 @@
+{
+  "run_at": "2026-11-20T19:03:28+00:00",
+  "k": 5,
+  "modes": {
+    "dense": {
+      "mode": "dense",
+      "recall_at_5": 0.917,
+      "mrr": 0.793,
+      "ndcg_at_5": 0.807,
+      "by_language": {
+        "en": 0.889,
+        "es": 1.0,
+        "pt": 0.889
+      },
+      "threshold": {
+        "threshold": 0.38,
+        "relevant_best_distance_max": 0.281,
+        "relevant_best_distance_median": 0.231,
+        "relevant_lost_at_threshold": 0,
+        "off_topic_best_distance_min": 0.392,
+        "off_topic_chunks_kept_at_threshold": 0,
+        "off_topic_queries": 8
+      },
+      "queries": [
+        {
+          "id": 1,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://site.getnet.com.br/duvidas/aluguel/"
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/pix/",
+            "https://site.getnet.com.br/duvidas/pix-mais-respostas/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/pix/"
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://site.getnet.com.br/crediario/",
+            "https://site.getnet.com.br/duvidas/taxas/",
+            "https://site.getnet.com.br/duvidas/parcelado/"
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/link-de-pagamento/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://site.getnet.com.br/"
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/get-smart/",
+            "https://site.getnet.com.br/maquininha/get-smart/"
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/get-tap/",
+            "https://site.getnet.com.br/get-tap/",
+            "https://site.getnet.com.br/",
+            "https://site.getnet.com.br/duvidas/get-smart/"
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "pt",
+          "recall_at_5": 0.5,
+          "mrr": 0.2,
+          "ndcg_at_5": 0.23719771276929622,
+          "top": [
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/ofertas-maquininha-de-cartao-getnet-2/",
+            "https://site.getnet.com.br/taxas-personalizadas/",
+            "https://site.getnet.com.br/todas-as-maquininhas/",
+            "https://site.getnet.com.br/duvidas/aluguel/"
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "top": [
+            "https://site.getnet.com.br/bandeiras/",
+            "https://site.getnet.com.br/duvidas/bandeiras/",
+            "https://site.getnet.com.br/duvidas/get-smart/",
+            "https://site.getnet.com.br/ofertas-maquininha-de-cartao-getnet-2/",
+            "https://site.getnet.com.br/taxas-personalizadas/"
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/duvidas/aluguel/",
+            "https://site.getnet.com.br/emprestimo/",
+            "https://www.getnet.net/en/our-solutions/value-added-solutions",
+            "https://site.getnet.com.br/link-de-pagamento/"
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.9197207891481876,
+          "top": [
+            "https://site.getnet.com.br/duvidas/pix-mais-respostas/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/pix/",
+            "https://site.getnet.com.br/pix/"
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "top": [
+            "https://site.getnet.com.br/crediario/",
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/duvidas/parcelado/"
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/link-de-pagamento/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://www.getnet.net/en/our-solutions/online-payments"
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "en",
+          "recall_at_5": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_5": 0.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/aluguel/",
+            "https://site.getnet.com.br/ofertas-tef-getnet/",
+            "https://site.getnet.com.br/conta-digital/",
+            "https://site.getnet.com.br/maquininha/aluguel/",
+            "https://site.getnet.com.br/duvidas/bandeiras/"
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.8772153153380493,
+          "top": [
+            "https://site.getnet.com.br/duvidas/get-conta/",
+            "https://site.getnet.com.br/emprestimo/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/conta-digital/",
+            "https://site.getnet.com.br/duvidas/get-tap/"
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/cancelamento-descredenciamento/",
+            "https://site.getnet.com.br/duvidas/cartao-getnet/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/get-conta/",
+            "https://www.getnet.net/en/"
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/split-de-pagamento/",
+            "https://site.getnet.com.br/split/",
+            "https://site.getnet.com.br/maquininha/get-smart/",
+            "https://site.getnet.com.br/duvidas/parcelado/",
+            "https://site.getnet.com.br/duvidas/"
+          ]
+        },
+        {
+          "id": 17,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/link-de-pagamento/"
+          ]
+        },
+        {
+          "id": 18,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6934264036172708,
+          "top": [
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/pix-mais-respostas/",
+            "https://site.getnet.com.br/duvidas/pix/"
+          ]
+        },
+        {
+          "id": 19,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "top": [
+            "https://site.getnet.com.br/crediario/",
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://site.getnet.com.br/duvidas/taxas/",
+            "https://site.getnet.com.br/duvidas/parcelado/"
+          ]
+        },
+        {
+          "id": 20,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/link-de-pagamento/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://site.getnet.com.br/"
+          ]
+        },
+        {
+          "id": 21,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "top": [
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/pre-autorizacao/",
+            "https://site.getnet.com.br/duvidas/operacional/",
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/link-de-pagamento/"
+          ]
+        },
+        {
+          "id": 22,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/parcelado/",
+            "https://site.getnet.com.br/crediario/",
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://site.getnet.com.br/emprestimo/",
+            "https://site.getnet.com.br/duvidas/taxas/"
+          ]
+        },
+        {
+          "id": 23,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg_at_5": 0.5,
+          "top": [
+            "https://site.getnet.com.br/institucional/",
+            "https://www.getnet.net/en/",
+            "https://www.getnet.net/en/corporate/about-us",
+            "https://site.getnet.com.br/duvidas/get-conta/",
+            "https://www.getnet.net/en/our-solutions/agentic-commerce"
+          ]
+        },
+        {
+          "id": 24,
+          "lang": "pt",
+          "recall_at_5": 0.5,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.6131471927654584,
+          "top": [
+            "https://site.getnet.com.br/ecommerce/",
+            "https://site.getnet.com.br/agentic-commerce/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://site.getnet.com.br/institucional/",
+            "https://site.getnet.com.br/ia-para-pequenos-empreendedores/"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "mode": "hybrid",
+      "recall_at_5": 0.833,
+      "mrr": 0.743,
+      "ndcg_at_5": 0.725,
+      "by_language": {
+        "en": 0.722,
+        "es": 0.833,
+        "pt": 0.944
+      },
+      "threshold": {
+        "threshold": 0.38,
+        "relevant_best_distance_max": 0.298,
+        "relevant_best_distance_median": 0.231,
+        "relevant_lost_at_threshold": 0,
+        "off_topic_best_distance_min": 0.392,
+        "off_topic_chunks_kept_at_threshold": 0,
+        "off_topic_queries": 8
+      },
+      "queries": [
+        {
+          "id": 1,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/duvidas/aluguel/",
+            "https://site.getnet.com.br/duvidas/link-de-pagamento/",
+            "https://site.getnet.com.br/duvidas/taxas/",
+            "https://site.getnet.com.br/duvidas/"
+          ]
+        },
+        {
+          "id": 2,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.9197207891481876,
+          "top": [
+            "https://site.getnet.com.br/duvidas/pix/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/pix-mais-respostas/"
+          ]
+        },
+        {
+          "id": 3,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://site.getnet.com.br/crediario/",
+            "https://site.getnet.com.br/duvidas/taxas/"
+          ]
+        },
+        {
+          "id": 4,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/link-de-pagamento/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://site.getnet.com.br/"
+          ]
+        },
+        {
+          "id": 5,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/get-smart/",
+            "https://site.getnet.com.br/maquininha/get-smart/"
+          ]
+        },
+        {
+          "id": 6,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/get-tap/",
+            "https://site.getnet.com.br/get-tap/",
+            "https://site.getnet.com.br/",
+            "https://site.getnet.com.br/duvidas/get-smart/"
+          ]
+        },
+        {
+          "id": 7,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6509209298071326,
+          "top": [
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/aluguel-zero/",
+            "https://site.getnet.com.br/ofertas",
+            "https://site.getnet.com.br/duvidas/aluguel/",
+            "https://site.getnet.com.br/get-tap/"
+          ]
+        },
+        {
+          "id": 8,
+          "lang": "pt",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/bandeiras/",
+            "https://site.getnet.com.br/duvidas/get-smart/",
+            "https://site.getnet.com.br/bandeiras/",
+            "https://site.getnet.com.br/duvidas/operacional/",
+            "https://site.getnet.com.br/ofertas"
+          ]
+        },
+        {
+          "id": 9,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg_at_5": 0.5,
+          "top": [
+            "https://www.getnet.net/en/our-solutions/value-added-solutions",
+            "https://www.getnet.net/en/",
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/duvidas/aluguel/",
+            "https://www.getnet.net/en/corporate/about-us"
+          ]
+        },
+        {
+          "id": 10,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.9197207891481876,
+          "top": [
+            "https://site.getnet.com.br/duvidas/pix-mais-respostas/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/pix/"
+          ]
+        },
+        {
+          "id": 11,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6309297535714575,
+          "top": [
+            "https://site.getnet.com.br/crediario/",
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://www.getnet.net/en/our-solutions/value-added-solutions",
+            "https://www.getnet.net/en/our-solutions/online-payments",
+            "https://www.getnet.net/en/our-solutions/agentic-commerce"
+          ]
+        },
+        {
+          "id": 12,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.8503449055347546,
+          "top": [
+            "https://site.getnet.com.br/duvidas/link-de-pagamento/",
+            "https://www.getnet.net/en/our-solutions/omnichannel",
+            "https://www.getnet.net/en/our-solutions/online-payments",
+            "https://www.getnet.net/en/our-solutions/in-person-payments",
+            "https://site.getnet.com.br/link-de-pagamento/"
+          ]
+        },
+        {
+          "id": 13,
+          "lang": "en",
+          "recall_at_5": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_5": 0.0,
+          "top": [
+            "https://www.getnet.net/en/",
+            "https://site.getnet.com.br/tef/solucao-tef/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/aluguel/",
+            "https://www.getnet.net/en/our-solutions/value-added-solutions"
+          ]
+        },
+        {
+          "id": 14,
+          "lang": "en",
+          "recall_at_5": 0.5,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.6131471927654584,
+          "top": [
+            "https://site.getnet.com.br/duvidas/get-conta/",
+            "https://www.getnet.net/en/our-solutions/online-payments",
+            "https://site.getnet.com.br/emprestimo/",
+            "https://site.getnet.com.br/duvidas/pix-mais-respostas/",
+            "https://site.getnet.com.br/duvidas/"
+          ]
+        },
+        {
+          "id": 15,
+          "lang": "en",
+          "recall_at_5": 0.0,
+          "mrr": 0.16666666666666666,
+          "ndcg_at_5": 0.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/cartao-getnet/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/app-getnet-brasil/",
+            "https://site.getnet.com.br/emprestimo/",
+            "https://site.getnet.com.br/duvidas/crediario/"
+          ]
+        },
+        {
+          "id": 16,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg_at_5": 0.5,
+          "top": [
+            "https://www.getnet.net/en/our-solutions/in-person-payments",
+            "https://site.getnet.com.br/split/",
+            "https://site.getnet.com.br/duvidas/split-de-pagamento/",
+            "https://www.getnet.net/en/",
+            "https://site.getnet.com.br/maquininha/get-smart/"
+          ]
+        },
+        {
+          "id": 17,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/antecipacao-de-vendas/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/pre-autorizacao/",
+            "https://site.getnet.com.br/ia-para-pequenos-empreendedores/",
+            "https://site.getnet.com.br/duvidas/get-smart/"
+          ]
+        },
+        {
+          "id": 18,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 0.5,
+          "ndcg_at_5": 0.6934264036172708,
+          "top": [
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/pix-mais-respostas/",
+            "https://site.getnet.com.br/duvidas/pix/"
+          ]
+        },
+        {
+          "id": 19,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://site.getnet.com.br/crediario/",
+            "https://site.getnet.com.br/duvidas/taxas/"
+          ]
+        },
+        {
+          "id": 20,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/link-de-pagamento/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://site.getnet.com.br/",
+            "https://site.getnet.com.br/proteja-seu-negocio-e-venda-com-seguranca/",
+            "https://site.getnet.com.br/ecommerce/"
+          ]
+        },
+        {
+          "id": 21,
+          "lang": "es",
+          "recall_at_5": 0.0,
+          "mrr": 0.16666666666666666,
+          "ndcg_at_5": 0.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/taxas/",
+            "https://site.getnet.com.br/duvidas/crediario/",
+            "https://site.getnet.com.br/duvidas/get-smart/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/duvidas/operacional/"
+          ]
+        },
+        {
+          "id": 22,
+          "lang": "es",
+          "recall_at_5": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_5": 1.0,
+          "top": [
+            "https://site.getnet.com.br/duvidas/parcelado/",
+            "https://site.getnet.com.br/duvidas/taxas/",
+            "https://site.getnet.com.br/duvidas/",
+            "https://site.getnet.com.br/ia-para-pequenos-empreendedores/",
+            "https://site.getnet.com.br/duvidas/pre-autorizacao/"
+          ]
+        },
+        {
+          "id": 23,
+          "lang": "en",
+          "recall_at_5": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg_at_5": 0.5,
+          "top": [
+            "https://www.getnet.net/en/",
+            "https://www.getnet.net/en/our-solutions/agentic-commerce",
+            "https://www.getnet.net/en/corporate/about-us",
+            "https://site.getnet.com.br/institucional/",
+            "https://www.getnet.net/en/our-solutions/value-added-solutions"
+          ]
+        },
+        {
+          "id": 24,
+          "lang": "pt",
+          "recall_at_5": 0.5,
+          "mrr": 1.0,
+          "ndcg_at_5": 0.6131471927654584,
+          "top": [
+            "https://site.getnet.com.br/ecommerce/",
+            "https://site.getnet.com.br/ia-para-pequenos-empreendedores/",
+            "https://site.getnet.com.br/link-de-pagamento/",
+            "https://site.getnet.com.br/proteja-seu-negocio-e-venda-com-seguranca/",
+            "https://site.getnet.com.br/duvidas/get-conta/"
+          ]
+        }
+      ]
+    }
+  }
+}

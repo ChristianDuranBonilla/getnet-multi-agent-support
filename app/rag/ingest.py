@@ -19,6 +19,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from app import llm
 from app.config import get_settings
+from app.rag.lexical import BM25Index
+from app.rag.retriever import lexical_path
 
 logger = logging.getLogger(__name__)
 
@@ -217,8 +219,33 @@ def save_raw(pages: dict[str, tuple[str, str]], raw_dir: Path) -> None:
         path.write_text(f"url: {url}\ntitle: {title}\n\n{text}\n", encoding="utf-8")
 
 
+BOILERPLATE_BLOCKS = (
+    re.compile(r"## Já é cliente\?.*?\nOpen\n", re.S),
+    re.compile(r"## Como podemos te ajudar\?.*?\nAVANÇAR\n", re.S),
+    re.compile(r"## Não é cliente\?.*\Z", re.S),
+)
+
+
+def strip_boilerplate(text: str) -> str:
+    """Remove the site header, the help menu and the footer repeated on every page.
+
+    These blocks (customer login prompt, "how can we help" menu, "not a customer yet"
+    footer) are identical across `site.getnet.com.br` and carry no product information;
+    left in, they become near-duplicate chunks that rank above real answers.
+
+    Args:
+        text: Cleaned page text.
+
+    Returns:
+        The text without the repeated blocks.
+    """
+    for pattern in BOILERPLATE_BLOCKS:
+        text = pattern.sub("", text)
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
 def load_raw(raw_dir: Path) -> list[Document]:
-    """Read the stored pages back as LangChain documents.
+    """Read the stored pages back as LangChain documents, without site boilerplate.
 
     Args:
         raw_dir: Directory written by `save_raw`.
@@ -232,9 +259,12 @@ def load_raw(raw_dir: Path) -> list[Document]:
         meta = dict(line.split(": ", 1) for line in header.splitlines() if ": " in line)
         url = meta.get("url", path.stem)
         lang = "pt" if "getnet.com.br" in url else "en"
+        content = strip_boilerplate(body)
+        if len(content) < 80:
+            continue
         documents.append(
             Document(
-                page_content=body.strip(),
+                page_content=content,
                 metadata={"url": url, "title": meta.get("title", ""), "lang": lang},
             )
         )
@@ -258,8 +288,82 @@ def split_documents(documents: list[Document]) -> list[Document]:
     return chunks
 
 
+def page_specificity(url: str) -> int:
+    """Rank pages by how specific their URL is (deeper paths win ties between copies)."""
+    return len([segment for segment in urlparse(url).path.split("/") if segment])
+
+
+def _sentences(text: str) -> set[str]:
+    normalised = re.sub(r"\s+", " ", text).strip().lower()
+    return {part.strip() for part in re.split(r"(?<=[.?!])\s+", normalised) if len(part) > 50}
+
+
+def dedupe_chunks(chunks: list[Document], coverage: float = 0.9) -> list[Document]:
+    """Drop chunks whose text is repeated on a more specific page.
+
+    The FAQ hub page (`/duvidas/`) republishes the questions of every category page and
+    several product pages repeat their FAQ. Left in, the same answer fills two or three
+    of the five retrieved chunks and the hub outranks the page that owns the answer. A
+    chunk is dropped when at least `coverage` of its sentences (two or more) appear in
+    chunks of other, more specific pages; exact copies keep the most specific page.
+
+    Args:
+        chunks: Chunk-level documents in page order.
+        coverage: Fraction of a chunk's sentences that must be found elsewhere.
+
+    Returns:
+        The chunks to index, in their original order.
+    """
+    owners: dict[str, set[int]] = {}
+    sentences = [_sentences(chunk.page_content) for chunk in chunks]
+    for index, parts in enumerate(sentences):
+        for sentence in parts:
+            owners.setdefault(sentence, set()).add(index)
+
+    def more_specific(index: int, other: int) -> bool:
+        here = page_specificity(chunks[index].metadata.get("url", ""))
+        there = page_specificity(chunks[other].metadata.get("url", ""))
+        return (there, -other) > (here, -index)
+
+    kept = []
+    for index, chunk in enumerate(chunks):
+        parts = sentences[index]
+        if len(parts) >= 2:
+            url = chunk.metadata.get("url", "")
+            covered = sum(
+                1
+                for sentence in parts
+                if any(
+                    chunks[other].metadata.get("url", "") != url and more_specific(index, other)
+                    for other in owners[sentence]
+                )
+            )
+            if covered / len(parts) >= coverage:
+                continue
+        kept.append(chunk)
+    return kept
+
+
+def chunk_ids(chunks: list[Document]) -> list[str]:
+    """Return deterministic ids shared by the vector and the lexical index.
+
+    Args:
+        chunks: Chunk-level documents with a `url` in their metadata.
+
+    Returns:
+        One id per chunk: the page slug followed by the chunk position within the page.
+    """
+    counters: dict[str, int] = {}
+    ids = []
+    for chunk in chunks:
+        slug = slugify(chunk.metadata.get("url", "page"))
+        counters[slug] = counters.get(slug, 0) + 1
+        ids.append(f"{slug}-{counters[slug]:03d}")
+    return ids
+
+
 def build_index(chunks: list[Document]) -> int:
-    """Recreate the Chroma collection from the given chunks.
+    """Recreate the Chroma collection and the BM25 index from the given chunks.
 
     Args:
         chunks: Chunk-level documents.
@@ -283,9 +387,13 @@ def build_index(chunks: list[Document]) -> int:
         embedding_function=llm.embeddings(),
         collection_metadata={"hnsw:space": "cosine"},
     )
+    ids = chunk_ids(chunks)
     batch = 64
     for start in range(0, len(chunks), batch):
-        store.add_documents(chunks[start : start + batch])
+        store.add_documents(chunks[start : start + batch], ids=ids[start : start + batch])
+    BM25Index.from_texts(ids, [chunk.page_content for chunk in chunks]).save(
+        lexical_path(settings.chroma_dir)
+    )
     return len(chunks)
 
 
@@ -305,7 +413,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-pages", type=int, default=MAX_PAGES)
     args = parser.parse_args(argv)
     logging.basicConfig(level="INFO", format="%(levelname)s %(message)s")
-    logging.getLogger("httpx").setLevel(logging.WARNING)
+    for noisy in ("httpx", "google_genai", "google_genai.models", "chromadb"):
+        logging.getLogger(noisy).setLevel(logging.WARNING)
     raw_dir = get_settings().data_dir / "raw"
     if not args.offline:
         pages = crawl(SEED_URLS, args.max_pages)
@@ -316,8 +425,12 @@ def main(argv: list[str] | None = None) -> int:
         print("no raw pages found; run without --offline first")
         return 1
     chunks = split_documents(documents)
-    stored = build_index(chunks)
-    print(f"pages indexed: {len(documents)}, chunks stored: {stored}")
+    unique = dedupe_chunks(chunks)
+    stored = build_index(unique)
+    print(
+        f"pages indexed: {len(documents)}, chunks: {len(chunks)}, "
+        f"duplicates dropped: {len(chunks) - len(unique)}, chunks stored: {stored}"
+    )
     return 0
 
 

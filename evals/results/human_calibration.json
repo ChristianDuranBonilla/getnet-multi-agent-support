@@ -1,0 +1,83 @@
+{
+  "_note": "Human labels for the judge calibration: for each scenario id, groundedness and correctness on the same 0-1 scale, assigned by the author from the evidence in the regression results (2026-11-20-regression.json), before looking at the judge's scores. null means not labelled yet. Run `python evals/judge.py --calibrate` to compare.",
+  "1": {
+    "groundedness": 0.9,
+    "correctness": 1.0,
+    "note": "touchscreen/Android for the Smart is inferred, not in the evidence; Classica claims attributed by the search"
+  },
+  "2": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "3": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "4": {
+    "groundedness": 0.9,
+    "correctness": 0.95,
+    "note": "'such as a Santander bank domicile' is not in the evidence; omits how to contract (Minha Conta / app)"
+  },
+  "5": {
+    "groundedness": 1.0,
+    "correctness": 0.9,
+    "note": "no hotspot/chip fallback; otherwise matches NET-02 and the steps"
+  },
+  "6": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "7": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "8": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "9": {
+    "groundedness": 0.95,
+    "correctness": 0.9,
+    "note": "'full amount' omits the discount fee the page mentions"
+  },
+  "10": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "11": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "12": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "13": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "14": {
+    "groundedness": 1.0,
+    "correctness": 1.0
+  },
+  "15": {
+    "groundedness": 0.8,
+    "correctness": 1.0,
+    "note": "terminal status fully supported; the Android UI steps (power menu, quick settings) are not in the evidence"
+  },
+  "16": {
+    "groundedness": 0.95,
+    "correctness": 0.9,
+    "note": "'within the same day' for Pix is D+1 in the data; omits the 2-business-day settlement and the fee for crediario"
+  },
+  "17": {
+    "groundedness": 1.0,
+    "correctness": 0.9,
+    "note": "power key sequence is in the operacional page; no chip/hotspot fallback"
+  },
+  "18": {
+    "groundedness": 1.0,
+    "correctness": 1.0,
+    "note": "only cliente1988's three sales, all in the tool result; nothing of cliente2001"
+  }
+}

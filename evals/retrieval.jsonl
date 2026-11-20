@@ -1,0 +1,32 @@
+{"id": 1, "lang": "pt", "query": "Como funciona a antecipação de vendas?", "expected_urls": ["https://site.getnet.com.br/duvidas/antecipacao-de-vendas/"]}
+{"id": 2, "lang": "pt", "query": "O que é uma chave Pix e quantas posso cadastrar?", "expected_urls": ["https://site.getnet.com.br/duvidas/pix/", "https://site.getnet.com.br/duvidas/pix-mais-respostas/"]}
+{"id": 3, "lang": "pt", "query": "Em quantas parcelas posso vender no crediário?", "expected_urls": ["https://site.getnet.com.br/duvidas/crediario/"]}
+{"id": 4, "lang": "pt", "query": "Como envio o link de pagamento para o cliente?", "expected_urls": ["https://site.getnet.com.br/duvidas/link-de-pagamento/", "https://site.getnet.com.br/link-de-pagamento/"]}
+{"id": 5, "lang": "pt", "query": "Como cuidar da bateria da Get Smart?", "expected_urls": ["https://site.getnet.com.br/duvidas/get-smart/"]}
+{"id": 6, "lang": "pt", "query": "O que é a Get Tap e como ela funciona no celular?", "expected_urls": ["https://site.getnet.com.br/duvidas/get-tap/", "https://site.getnet.com.br/get-tap/"]}
+{"id": 7, "lang": "pt", "query": "Quanto custa o aluguel da maquininha e o que é aluguel zero?", "expected_urls": ["https://site.getnet.com.br/duvidas/aluguel/", "https://site.getnet.com.br/duvidas/aluguel-zero/"]}
+{"id": 8, "lang": "pt", "query": "Quais bandeiras de cartão a maquininha aceita?", "expected_urls": ["https://site.getnet.com.br/duvidas/bandeiras/"]}
+{"id": 9, "lang": "en", "query": "How does receivables prepayment work and what does it cost?", "expected_urls": ["https://site.getnet.com.br/duvidas/antecipacao-de-vendas/"]}
+{"id": 10, "lang": "en", "query": "Do I need a Pix key registered at my bank to receive Pix?", "expected_urls": ["https://site.getnet.com.br/duvidas/pix/", "https://site.getnet.com.br/duvidas/pix-mais-respostas/"]}
+{"id": 11, "lang": "en", "query": "When is a crediário sale paid to the merchant?", "expected_urls": ["https://site.getnet.com.br/duvidas/crediario/"]}
+{"id": 12, "lang": "en", "query": "Can the payment link be shared by WhatsApp or email?", "expected_urls": ["https://site.getnet.com.br/duvidas/link-de-pagamento/", "https://site.getnet.com.br/link-de-pagamento/"]}
+{"id": 13, "lang": "en", "query": "Which card machines does Getnet offer?", "expected_urls": ["https://site.getnet.com.br/todas-as-maquininhas/", "https://site.getnet.com.br/maquininha/get-smart/"]}
+{"id": 14, "lang": "en", "query": "What is the Get Conta digital account?", "expected_urls": ["https://site.getnet.com.br/duvidas/get-conta/", "https://site.getnet.com.br/conta-digital/"]}
+{"id": 15, "lang": "en", "query": "How do I cancel my Getnet contract?", "expected_urls": ["https://site.getnet.com.br/duvidas/cancelamento-descredenciamento/"]}
+{"id": 16, "lang": "en", "query": "What is split payment and who can use it?", "expected_urls": ["https://site.getnet.com.br/duvidas/split-de-pagamento/"]}
+{"id": 17, "lang": "es", "query": "¿Cómo funciona la anticipación de ventas con tarjeta de crédito?", "expected_urls": ["https://site.getnet.com.br/duvidas/antecipacao-de-vendas/"]}
+{"id": 18, "lang": "es", "query": "¿Qué es una llave Pix?", "expected_urls": ["https://site.getnet.com.br/duvidas/pix/", "https://site.getnet.com.br/duvidas/pix-mais-respostas/"]}
+{"id": 19, "lang": "es", "query": "¿Cuántas cuotas permite el crediário?", "expected_urls": ["https://site.getnet.com.br/duvidas/crediario/"]}
+{"id": 20, "lang": "es", "query": "¿Puedo enviar el link de pago por redes sociales?", "expected_urls": ["https://site.getnet.com.br/duvidas/link-de-pagamento/", "https://site.getnet.com.br/link-de-pagamento/"]}
+{"id": 21, "lang": "es", "query": "¿Qué es una preautorización en la terminal?", "expected_urls": ["https://site.getnet.com.br/duvidas/pre-autorizacao/"]}
+{"id": 22, "lang": "es", "query": "¿Cómo funciona la venta en cuotas (parcelado)?", "expected_urls": ["https://site.getnet.com.br/duvidas/parcelado/"]}
+{"id": 23, "lang": "en", "query": "Where does Getnet operate and who owns it?", "expected_urls": ["https://www.getnet.net/en/corporate/about-us"]}
+{"id": 24, "lang": "pt", "query": "Como vender online com e-commerce Getnet?", "expected_urls": ["https://site.getnet.com.br/ecommerce/", "https://www.getnet.net/en/our-solutions/online-payments"]}
+{"id": 25, "lang": "en", "query": "What's the weather in São Paulo tomorrow?", "expected_urls": [], "off_topic": true}
+{"id": 26, "lang": "pt", "query": "Me dê uma receita de feijoada", "expected_urls": [], "off_topic": true}
+{"id": 27, "lang": "en", "query": "Who won the Copa Libertadores 2024?", "expected_urls": [], "off_topic": true}
+{"id": 28, "lang": "en", "query": "How do I reset my iPhone?", "expected_urls": [], "off_topic": true}
+{"id": 29, "lang": "en", "query": "Write a poem about the sea", "expected_urls": [], "off_topic": true}
+{"id": 30, "lang": "es", "query": "¿Cuál es la capital de Australia?", "expected_urls": [], "off_topic": true}
+{"id": 31, "lang": "en", "query": "Explain quantum entanglement", "expected_urls": [], "off_topic": true}
+{"id": 32, "lang": "pt", "query": "Quais são os melhores hotéis em Lisboa?", "expected_urls": [], "off_topic": true}
