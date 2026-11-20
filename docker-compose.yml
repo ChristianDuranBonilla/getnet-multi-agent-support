@@ -12,6 +12,7 @@ services:
     environment:
       GOOGLE_APPLICATION_CREDENTIALS: /run/secrets/sa-key
       CHROMA_DIR: /app/data/chroma
+      STATE_DIR: /app/data/state
     secrets:
       - source: sa-key
         target: sa-key
@@ -20,6 +21,7 @@ services:
         mode: 0444
     volumes:
       - chroma-index:/app/data/chroma
+      - app-state:/app/data/state
     restart: unless-stopped
 
 secrets:
@@ -28,3 +30,4 @@ secrets:
 
 volumes:
   chroma-index:
+  app-state:

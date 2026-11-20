@@ -3,7 +3,7 @@
 .secrets/
 .env
 data/chroma/
-evals/last_run.json
+data/state/
 __pycache__/
 *.pyc
 .pytest_cache/
@@ -11,3 +11,6 @@ __pycache__/
 *.egg-info/
 tests/
 .DS_Store
+evals/demo_keys.json
+evals/results/
+_second_delivery/
