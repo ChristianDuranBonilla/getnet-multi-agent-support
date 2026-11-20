@@ -32,6 +32,8 @@ USER getnet
 # The index needs embeddings from Vertex AI, so it is built on first start when the
 # mounted volume is empty and credentials are present (see docker-entrypoint.sh).
 COPY --chown=getnet:getnet docker-entrypoint.sh ./
+# The executable bit does not survive every checkout (Windows, some sync tools).
+RUN chmod +x docker-entrypoint.sh
 EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=5s --start-period=120s \
   CMD curl -fsS http://127.0.0.1:8080/ready || exit 1
