@@ -29,7 +29,9 @@ fi
 
 if [ -n "$KEY_SOURCE" ]; then
   mkdir -p .secrets
-  cp "$KEY_SOURCE" "$KEY_TARGET"
+  if [ ! "$KEY_SOURCE" -ef "$KEY_TARGET" ]; then
+    cp "$KEY_SOURCE" "$KEY_TARGET"
+  fi
 fi
 if [ ! -f "$KEY_TARGET" ]; then
   echo "service-account key not found at $KEY_TARGET; pass its path as the first argument" >&2
