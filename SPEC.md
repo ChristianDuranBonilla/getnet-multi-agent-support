@@ -623,7 +623,7 @@ to the revision 2 graph.
 - `recall` loads the last `2 × MEMORY_WINDOW_TURNS` turns in total (merchant and assistant interleaved) instead of counting per role.
 - BM25 is implemented in `app/rag/lexical.py` (about eighty lines) instead of adding `rank-bm25`; the lexical index is stored as `lexical.json` next to the Chroma files, not as a pickle. Chunk ids are deterministic (`<slug>-<n>`) so both indexes agree.
 - The hop request tool is defined with the merchant-data tools in `app/tools/support_tools.py`; `SUPPORT_TOOLS` includes it and `MERCHANT_DATA_TOOLS` does not.
-- `ChatResponse` gained `tool_calls` (names) so the black-box evaluator can check tools without parsing the trace, and `GET /demo-keys` serves the demo credentials to the UI when `EXPOSE_DEMO_KEYS` is true.
+- `ChatResponse` gained `tool_calls` (names) so the black-box evaluator can check tools without parsing the trace. A `GET /demo-keys` endpoint that served the demo credentials to the UI behind a flag existed briefly and was removed: no endpoint serves credentials, the UI asks for a pasted key, and the demo keys stay out of the image.
 - Two lockfiles are generated (`requirements.lock` for the image, `requirements-dev.lock` for CI and `make install`) with `--strip-extras`; hashes are not pinned.
 - `remember` runs before `await_operator`, so the merchant and assistant turns of an escalated turn are stored before the graph waits for the operator; the operator's reply is stored by a second pass through `remember` after the resume.
 - `evals/last_run.json` is retired; every run writes a dated file under `evals/results/`.
