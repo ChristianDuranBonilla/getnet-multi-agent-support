@@ -8,9 +8,11 @@
   :root { --bg: #f5f6f8; --card: #fff; --fg: #1d2330; --muted: #6b7280; --line: #e2e5ea; --accent: #c8102e; --ok: #0b7a4b; --warn: #a15c00; --mono: ui-monospace, SFMono-Regular, Menlo, monospace; }
   * { box-sizing: border-box; }
   body { margin: 0; font: 15px/1.5 system-ui, -apple-system, Segoe UI, sans-serif; background: var(--bg); color: var(--fg); }
-  header { padding: 14px 20px; background: var(--card); border-bottom: 1px solid var(--line); display: flex; gap: 16px; align-items: center; }
-  header h1 { font-size: 16px; margin: 0; }
-  header select { font: inherit; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; }
+  header { padding: 12px 20px; background: var(--card); border-bottom: 1px solid var(--line); display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; flex: 1; }
+  header input, header button.link { font: inherit; padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--fg); }
+  header input { width: 300px; font-family: var(--mono); font-size: 12px; }
+  header .conv { font-family: var(--mono); font-size: 12px; color: var(--muted); }
   main { display: grid; grid-template-columns: 1fr 360px; gap: 16px; padding: 16px 20px; max-width: 1200px; margin: 0 auto; }
   @media (max-width: 800px) { main { grid-template-columns: 1fr; } }
   .chat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; display: flex; flex-direction: column; min-height: 70vh; }
@@ -18,14 +20,17 @@
   .msg { max-width: 80%; padding: 10px 12px; border-radius: 10px; white-space: pre-wrap; }
   .user { align-self: flex-end; background: #eef1f6; }
   .bot { align-self: flex-start; background: #fbf3f4; border: 1px solid #f1d5d9; }
-  .bot .tag { display: inline-block; font-size: 11px; font-family: var(--mono); padding: 1px 6px; border-radius: 4px; background: var(--accent); color: #fff; margin-bottom: 6px; }
+  .operator { align-self: flex-start; background: #eef7f1; border: 1px solid #bfe3cc; }
+  .tag { display: inline-block; font-size: 11px; font-family: var(--mono); padding: 1px 6px; border-radius: 4px; background: var(--accent); color: #fff; margin-bottom: 6px; }
+  .operator .tag { background: var(--ok); }
   form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--line); }
   input[type=text] { flex: 1; font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; }
   button { font: inherit; padding: 10px 16px; border: 0; border-radius: 8px; background: var(--accent); color: #fff; cursor: pointer; }
   button:disabled { opacity: .5; }
   .panel { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px; font-size: 13px; }
-  .panel h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 8px; }
-  .kv { display: grid; grid-template-columns: 110px 1fr; gap: 4px 8px; margin-bottom: 12px; }
+  .panel h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 12px 0 8px; }
+  .panel h2:first-child { margin-top: 0; }
+  .kv { display: grid; grid-template-columns: 110px 1fr; gap: 4px 8px; }
   .kv b { color: var(--muted); font-weight: 500; }
   .trace { font-family: var(--mono); font-size: 12px; }
   .trace div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dashed var(--line); padding: 3px 0; }
@@ -35,17 +40,20 @@
   .fine { color: var(--ok); font-weight: 600; }
   .examples { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 12px 10px; }
   .examples button { background: #eef1f6; color: var(--fg); font-size: 12px; padding: 4px 8px; }
+  details { margin-top: 16px; }
+  details summary { cursor: pointer; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .op input { width: 100%; font: inherit; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; margin: 8px 0; }
+  .ticket { border: 1px solid var(--line); border-radius: 8px; padding: 8px; margin: 8px 0; font-size: 12px; }
+  .ticket textarea { width: 100%; font: inherit; font-size: 12px; margin: 6px 0; border: 1px solid var(--line); border-radius: 6px; padding: 6px; }
+  .ticket button { font-size: 12px; padding: 6px 10px; }
 </style>
 </head>
 <body>
 <header>
   <h1>Getnet multi-agent assistant</h1>
-  <label>user_id <select id="user">
-    <option value="cliente1988">cliente1988 (Get Smart, active)</option>
-    <option value="cliente2001">cliente2001 (Get Clássica, terminal offline)</option>
-    <option value="cliente3050">cliente3050 (Get Mini, account under review)</option>
-    <option value="cliente0000">cliente0000 (unknown user)</option>
-  </select></label>
+  <label>merchant API key <input type="password" id="apikey" placeholder="paste a key from evals/demo_keys.json" autocomplete="off"></label>
+  <span class="conv" id="conv">new conversation</span>
+  <button class="link" id="reset" type="button">New conversation</button>
 </header>
 <main>
   <section class="chat">
@@ -58,11 +66,17 @@
   </section>
   <aside class="panel">
     <h2>Last request</h2>
-    <div class="kv" id="meta"><b>agent</b><span>–</span><b>intent</b><span>–</span><b>guardrail</b><span>–</span><b>confidence</b><span>–</span><b>handoff</b><span>–</span><b>ticket</b><span>–</span><b>latency</b><span>–</span></div>
+    <div class="kv" id="meta"><b>agent</b><span>–</span><b>plan / hops</b><span>–</span><b>intent</b><span>–</span><b>guardrail</b><span>–</span><b>confidence</b><span>–</span><b>handoff</b><span>–</span><b>ticket</b><span>–</span><b>tokens</b><span>–</span><b>latency</b><span>–</span><b>security</b><span>–</span></div>
     <h2>Sources</h2>
     <div id="sources" class="trace">–</div>
-    <h2 style="margin-top:12px">Trace</h2>
+    <h2>Trace</h2>
     <div id="trace" class="trace">–</div>
+    <details class="op">
+      <summary>Operator panel</summary>
+      <input type="password" id="opkey" placeholder="operator API key (OPERATOR_API_KEY)">
+      <button type="button" id="oplist">Load open tickets</button>
+      <div id="tickets"></div>
+    </details>
   </aside>
 </main>
 <script>
@@ -70,47 +84,93 @@
     "What's the difference between the Get Clássica and the Get Smart?",
     "When will the money from yesterday's sales be deposited?",
     "My card machine won't connect to the internet, what should I do?",
-    "What's the weather forecast in Porto Alegre tomorrow?",
+    "When will I be paid for yesterday's sales and how many instalments does crediário allow?",
     "How does receivables advance (antecipação) work with Getnet?",
   ];
   const log = document.getElementById("log");
   const form = document.getElementById("form");
   const input = document.getElementById("message");
   const send = document.getElementById("send");
-  const ex = document.getElementById("examples");
-  examples.forEach((t) => { const b = document.createElement("button"); b.type = "button"; b.textContent = t; b.onclick = () => { input.value = t; input.focus(); }; ex.appendChild(b); });
+  const keyInput = document.getElementById("apikey");
+  const convLabel = document.getElementById("conv");
+  let conversationId = null;
+  let shownTurns = 0;
+  const apiKey = () => keyInput.value.trim();
+  try { keyInput.value = localStorage.getItem("getnet.apiKey") || ""; } catch (e) { /* storage unavailable */ }
+  keyInput.addEventListener("change", () => { try { localStorage.setItem("getnet.apiKey", apiKey()); } catch (e) { /* storage unavailable */ } resetConversation(); });
+  examples.forEach((t) => { const b = document.createElement("button"); b.type = "button"; b.textContent = t; b.onclick = () => { input.value = t; input.focus(); }; document.getElementById("examples").appendChild(b); });
 
   function add(cls, text, tag) {
     const d = document.createElement("div"); d.className = "msg " + cls;
     if (tag) { const s = document.createElement("span"); s.className = "tag"; s.textContent = tag; d.appendChild(s); d.appendChild(document.createElement("br")); }
     d.appendChild(document.createTextNode(text)); log.appendChild(d); log.scrollTop = log.scrollHeight;
   }
+  function resetConversation() { conversationId = null; shownTurns = 0; log.innerHTML = ""; convLabel.textContent = "new conversation"; }
+  document.getElementById("reset").addEventListener("click", resetConversation);
+
   function render(r) {
-    const m = document.getElementById("meta");
-    const cells = m.querySelectorAll("span");
+    const cells = document.getElementById("meta").querySelectorAll("span");
     cells[0].textContent = r.agent ?? "guardrail";
-    cells[1].textContent = r.intent ?? "–";
-    cells[2].textContent = r.guardrail ?? "–";
-    cells[3].textContent = r.confidence != null ? r.confidence.toFixed(2) : "–";
-    cells[4].innerHTML = r.handoff ? '<span class="handoff">yes</span>' : '<span class="fine">no</span>';
-    cells[5].textContent = r.ticket_id ?? "–";
-    cells[6].textContent = r.latency_ms != null ? r.latency_ms + " ms" : "–";
+    cells[1].textContent = (r.plan || []).join(" → ") + (r.hops ? " / " + r.hops + " hop" : "") + (r.hop_question ? " · " + r.hop_question : "");
+    cells[2].textContent = r.intent ?? "–";
+    cells[3].textContent = r.guardrail ?? "–";
+    cells[4].textContent = r.confidence != null ? r.confidence.toFixed(2) : "–";
+    cells[5].innerHTML = r.handoff ? '<span class="handoff">yes</span>' : '<span class="fine">no</span>';
+    cells[6].textContent = r.ticket_id ?? "–";
+    cells[7].textContent = r.usage ? `${r.usage.input_tokens} in / ${r.usage.output_tokens} out ($${r.usage.estimated_cost_usd})` : "–";
+    cells[8].textContent = r.latency_ms != null ? r.latency_ms + " ms" : "–";
+    cells[9].innerHTML = (r.security_events || []).length ? '<span class="handoff">' + r.security_events.join(", ") + "</span>" : '<span class="fine">none</span>';
     const label = (ref) => { try { const u = new URL(ref); return u.hostname.includes("vertexaisearch") ? "google search (grounding)" : u.hostname + u.pathname; } catch { return ref; } };
-    document.getElementById("sources").innerHTML = (r.sources || []).map((s) => `<div><span class="k">${s.type}</span><span class="v" title="${s.ref}">${label(s.ref)}</span></div>`).join("") || "–";
-    document.getElementById("trace").innerHTML = (r.trace || []).map((t) => `<div><span class="k">${t.step}. ${t.node}</span><span class="v">${t.ms} ms</span></div>`).join("") || "–";
+    document.getElementById("sources").innerHTML = (r.sources || []).map((s) => `<div><span class="k">${s.type}</span><span class="v" title="${s.ref}">${s.title ? s.title + " · " : ""}${label(s.ref)}</span></div>`).join("") || "–";
+    document.getElementById("trace").innerHTML = (r.trace || []).map((t) => `<div><span class="k">${t.step}. ${t.node}${t.detail ? " · " + t.detail : ""}</span><span class="v">${t.ms} ms</span></div>`).join("") || "–";
   }
+
+  async function refreshOperatorTurns() {
+    if (!conversationId) return;
+    const res = await fetch("/conversations/" + conversationId, { headers: { "X-API-Key": apiKey() } });
+    if (!res.ok) return;
+    const c = await res.json();
+    c.turns.slice(shownTurns).forEach((t) => { if (t.role === "operator") add("operator", t.content, "operator"); });
+    shownTurns = c.turns.length;
+  }
+
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const message = input.value.trim(); if (!message) return;
-    const user_id = document.getElementById("user").value;
+    if (!apiKey()) { add("bot", "Paste a merchant API key first (evals/demo_keys.json)."); return; }
+    await refreshOperatorTurns();
     add("user", message); input.value = ""; send.disabled = true;
     try {
-      const res = await fetch("/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ message, user_id }) });
+      const body = { message, include_evidence: false };
+      if (conversationId) body.conversation_id = conversationId;
+      const res = await fetch("/chat", { method: "POST", headers: { "Content-Type": "application/json", "X-API-Key": apiKey() }, body: JSON.stringify(body) });
       const r = await res.json();
-      if (!res.ok) { add("bot", "Error " + res.status + ": " + (r.detail?.message || JSON.stringify(r.detail || r))); return; }
+      if (!res.ok) { add("bot", "Error " + res.status + ": " + (r.detail?.error || r.detail?.message || JSON.stringify(r.detail || r))); return; }
+      conversationId = r.conversation_id; shownTurns += 2;
+      convLabel.textContent = r.user_id + " · " + r.conversation_id + " · turn " + r.turn;
       add("bot", r.response, r.agent ?? "guardrail"); render(r);
     } catch (err) { add("bot", "Request failed: " + err.message); }
     finally { send.disabled = false; input.focus(); }
+  });
+
+  document.getElementById("oplist").addEventListener("click", async () => {
+    const key = document.getElementById("opkey").value.trim();
+    const box = document.getElementById("tickets");
+    const res = await fetch("/tickets?status=open", { headers: { "X-API-Key": key } });
+    if (!res.ok) { box.textContent = "Error " + res.status; return; }
+    const tickets = await res.json();
+    box.innerHTML = tickets.length ? "" : "No open tickets.";
+    tickets.forEach((t) => {
+      const d = document.createElement("div"); d.className = "ticket";
+      d.innerHTML = `<b>${t.ticket_id}</b> · ${t.priority} · ${t.summary}<textarea rows="2" placeholder="Reply to the merchant"></textarea><button type="button">Reply and resolve</button>`;
+      d.querySelector("button").onclick = async () => {
+        const message = d.querySelector("textarea").value.trim(); if (!message) return;
+        const r = await fetch(`/tickets/${t.ticket_id}/reply`, { method: "POST", headers: { "Content-Type": "application/json", "X-API-Key": key }, body: JSON.stringify({ message, resolution: "resolved" }) });
+        d.innerHTML = r.ok ? `<b>${t.ticket_id}</b> resolved; the merchant sees the reply in the conversation.` : "Error " + r.status;
+        await refreshOperatorTurns();
+      };
+      box.appendChild(d);
+    });
   });
 </script>
 </body>

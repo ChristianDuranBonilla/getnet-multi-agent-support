@@ -1,0 +1,43 @@
+{
+  "_note": "Hashed API keys. Plaintext values are never stored here; the demo fixtures live in evals/demo_keys.json. Issue with `python scripts/issue_api_key.py issue <merchant_id>` (or `--operator`), revoke with `python scripts/issue_api_key.py revoke <key_id>`.",
+  "46caf3da9c340109e102a31ead3c74bb0d3753806db85d9fd1782e935dbeac3e": {
+    "merchant_id": "cliente1988",
+    "scopes": [
+      "chat"
+    ],
+    "status": "active",
+    "label": "demo cliente1988"
+  },
+  "beef6d39146d3f319fbe87e9511f48f4a21d77d84b40af79e38c57cc2bf362dd": {
+    "merchant_id": "cliente2001",
+    "scopes": [
+      "chat"
+    ],
+    "status": "active",
+    "label": "demo cliente2001"
+  },
+  "1f26815d4e50ab045cf6abc56c4dccbf3cfdca05eb218563f293b906f53d6141": {
+    "merchant_id": "cliente3050",
+    "scopes": [
+      "chat"
+    ],
+    "status": "active",
+    "label": "demo cliente3050"
+  },
+  "9469e308e7dca83d68ce3a9fbbaf5ef7e35ac718992cfd7c9b8d41f48cb73067": {
+    "merchant_id": "cliente1988",
+    "scopes": [
+      "chat"
+    ],
+    "status": "revoked",
+    "label": "demo revoked key"
+  },
+  "812ad8c1d58f03b5b21832e807b0ebc037f25008c9bb7dabb1c811ed41b268c2": {
+    "merchant_id": "",
+    "scopes": [
+      "operator"
+    ],
+    "status": "active",
+    "label": "demo operator"
+  }
+}

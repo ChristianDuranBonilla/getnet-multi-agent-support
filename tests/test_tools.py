@@ -1,5 +1,9 @@
-from app import repositories
-from app.tools.support_tools import get_settlement_status, get_terminal_status, get_user_profile
+from app.tools.support_tools import (
+    get_settlement_status,
+    get_terminal_status,
+    get_user_profile,
+    request_product_knowledge,
+)
 
 
 def test_settlements_use_iso_dates_relative_to_today(repository):
@@ -16,27 +20,24 @@ def test_unknown_user_returns_none(repository):
     assert repository.get_terminal("cliente0000") is None
 
 
-def test_ticket_roundtrip(repository):
-    ticket_id = repository.create_ticket("cliente1988", "deposit question", "medium")
-    assert ticket_id.startswith("TCK-")
-    ticket = repository.get_ticket(ticket_id)
-    assert ticket["user_id"] == "cliente1988"
-    assert ticket["status"] == "open"
-
-
-def test_tools_wrap_repository(monkeypatch, repository):
-    monkeypatch.setattr(repositories, "get_repository", lambda: repository)
-    profile = get_user_profile.invoke({"user_id": "cliente1988"})
+def test_tools_wrap_repository(use_repository):
+    profile = get_user_profile.invoke({"merchant_id": "cliente1988"})
     assert profile["ok"] is True
     assert profile["terminal_model"] == "Get Smart"
-    settlements = get_settlement_status.invoke({"user_id": "cliente1988"})
+    settlements = get_settlement_status.invoke({"merchant_id": "cliente1988"})
     assert settlements["ok"] is True
+    assert settlements["today"] == "2026-11-06"
     assert len(settlements["sales"]) == 3
-    terminal = get_terminal_status.invoke({"user_id": "cliente2001"})
+    terminal = get_terminal_status.invoke({"merchant_id": "cliente2001"})
     assert terminal["connectivity"] == "offline"
 
 
-def test_tools_report_unknown_user_without_raising(monkeypatch, repository):
-    monkeypatch.setattr(repositories, "get_repository", lambda: repository)
-    result = get_settlement_status.invoke({"user_id": "nobody"})
+def test_tools_report_unknown_user_without_raising(use_repository):
+    result = get_settlement_status.invoke({"merchant_id": "nobody"})
     assert result == {"ok": False, "error": "user_not_found"}
+
+
+def test_hop_request_tool_performs_no_io():
+    result = request_product_knowledge.invoke({"question": "How do I reset a Get Clássica?"})
+    assert result["ok"] is True
+    assert "Knowledge" in result["note"]

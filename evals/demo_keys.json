@@ -1,0 +1,8 @@
+{
+  "_note": "Plaintext demo credentials for the mock merchants in data/users.json plus one demo operator. They are test fixtures: they authenticate only against this repository's mock key store, grant access to mock data, are excluded from the Docker image and are never served by the API. The 'revoked' key exercises the 403 path.",
+  "cliente1988": "gk_cfa2a909fe5dc4bef5fbf961ec9d59e6",
+  "cliente2001": "gk_497edc39abaac8a6c53c5948c4e2cd0d",
+  "cliente3050": "gk_37b869eb0339700530b3f6c8b03846f2",
+  "revoked": "gk_3eff6d2cd4614c1732a4f520867b12de",
+  "operator_demo": "op_a5b12a6c048e995141bfcfef3d9b23ae"
+}

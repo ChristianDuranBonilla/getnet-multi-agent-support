@@ -7,6 +7,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 from app import llm
 from app.agents.prompts import load_prompt
+from app.config import get_settings
 from app.observability import timed_node
 from app.state import AgentState, GuardrailResult
 
@@ -48,7 +49,13 @@ SAFE_REPLIES = {
         "es": "Eso está fuera de lo que puedo ayudar. Pregúntame sobre productos Getnet, "
         "depósitos o tu terminal.",
     },
+    "unavailable": {
+        "en": "I can't process messages safely right now. Please try again in a moment.",
+        "pt": "Não consigo processar mensagens com segurança agora. Tente novamente em instantes.",
+        "es": "No puedo procesar mensajes de forma segura ahora. Inténtalo de nuevo en un momento.",
+    },
 }
+BLOCKED_CATEGORIES = ("unsafe", "prompt_injection", "off_topic", "unavailable")
 
 
 def luhn_valid(digits: str) -> bool:
@@ -133,27 +140,42 @@ def safe_reply(category: str, language: str) -> str:
     return replies.get(language, replies["en"])
 
 
-def classify(message: str) -> GuardrailResult:
+def unavailable_verdict() -> GuardrailResult:
+    """Return the verdict used when the classifier cannot run.
+
+    `GUARDRAIL_FAIL_MODE=closed` (the default) blocks the message with a templated reply;
+    `open` lets it through on the strength of the deterministic checks alone.
+    """
+    if get_settings().guardrail_fail_mode == "open":
+        return GuardrailResult(
+            allowed=True, category="ok", language="en", reason="classifier unavailable"
+        )
+    return GuardrailResult(
+        allowed=False, category="unavailable", language="en", reason="classifier unavailable"
+    )
+
+
+def classify(message: str) -> tuple[GuardrailResult, tuple[int, int], str]:
     """Run the LLM classification step.
 
     Args:
         message: Message with PII already masked.
 
     Returns:
-        The model's verdict, or a permissive default when the model fails.
+        The verdict, the token usage and the model that answered; on failure, the verdict
+        of `unavailable_verdict`.
     """
     try:
-        result = llm.structured(GuardrailResult).invoke(
-            [SystemMessage(content=load_prompt("guardrail")), HumanMessage(content=message)]
+        model = llm.structured(GuardrailResult)
+        result = llm.invoke_resilient(
+            model, [SystemMessage(content=load_prompt("guardrail")), HumanMessage(content=message)]
         )
     except Exception as exc:
         logger.warning("%s model call failed: %s: %s", "guardrail", type(exc).__name__, exc)
-        return GuardrailResult(
-            allowed=True, category="ok", language="en", reason="classifier unavailable"
-        )
+        return unavailable_verdict(), (0, 0), ""
     if isinstance(result, dict):
         result = GuardrailResult.model_validate(result)
-    return result
+    return result, getattr(model, "last_usage", (0, 0)), getattr(model, "last_model", "")
 
 
 @timed_node("sanitize")
@@ -199,13 +221,22 @@ def guardrail_node(state: AgentState) -> dict:
     Returns:
         State update with `guardrail`, `language` and possibly an `answer`.
     """
-    verdict = classify(state["message"])
+    verdict, (tokens_in, tokens_out), model = classify(state["message"])
     language = (verdict.language or "en").lower()[:2]
     if state.get("pii_detected") and verdict.category == "ok":
         verdict = verdict.model_copy(update={"category": "pii", "allowed": True})
-    if verdict.category in ("unsafe", "prompt_injection"):
+    if verdict.category in ("unsafe", "prompt_injection", "unavailable"):
         verdict = verdict.model_copy(update={"allowed": False})
-    update = {"guardrail": verdict, "language": language, "trace_detail": verdict.category}
-    if verdict.category in ("unsafe", "prompt_injection", "off_topic"):
+    update = {
+        "guardrail": verdict,
+        "language": language,
+        "tokens_in": tokens_in,
+        "tokens_out": tokens_out,
+        "model": model,
+        "trace_detail": verdict.category,
+    }
+    if verdict.category in BLOCKED_CATEGORIES:
         update["answer"] = safe_reply(verdict.category, language)
+    if verdict.category == "unavailable":
+        update["security_events"] = ["guardrail_unavailable"]
     return update
